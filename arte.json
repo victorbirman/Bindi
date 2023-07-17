@@ -1,0 +1,26 @@
+{
+    "news05": {
+        "title": "Construcción de edificios para ciudades sostenibles",
+        "subtitle": "Biomateriales: creando con la naturaleza.",
+        "coverPic": "noticia05_cover",
+        "link": "noticia05.html"
+    },
+    "news06": {
+        "title": "El joven que imprime su arte en la naturaleza",
+        "subtitle": "David Popa y sus obras de land art sobre hielo.",
+        "coverPic": "noticia06_cover",
+        "link": "noticia06.html"
+    },
+    "news07": {
+        "title": "Naturaleza para coleccionar hecha de papel",
+        "subtitle": "Conocé el delicado arte de Moth & Myth.",
+        "coverPic": "noticia07_cover",
+        "link": "noticia07.html"
+    },
+    "news08": {
+        "title": "Revelado de fotografías en plantas",
+        "subtitle": "Una técnica sencilla para imprimir imagenes en la naturaleza.",
+        "coverPic": "noticia08_cover",
+        "link": "noticia08.html"
+    }
+}

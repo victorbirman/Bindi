@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-modules.css" />
+    <script src="script.js" defer></script>
+    <title>BINDI</title>
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="icons/bindi_logo.png" alt="Bindi" />
+      <ul class="top-menu">
+        <li>
+          <a href="articles/about-us.html">Qui&eacute;nes somos</a>
+        </li>
+        <li>
+          <a href="#news">Noticias</a>
+        </li>
+        <li>
+          <a href="#videos">Videos</a>
+        </li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button class="radio" onclick="playAudio()">&#9654; EN VIVO</button>
+    </nav>
+
+    <video
+      src="media/banner_medium.webm"
+      poster="media/banner_medium_thumb.webp"
+      autoplay
+      loop
+      muted
+      playsinline
+    >
+      Bienvenidos a Bindi.
+    </video>
+
+    <!-- HASTA ACÁ HERO SECTION -->
+
+    <!-- MÓDULO NOTICIAS DESTACADAS-->
+
+    <div class="destacadas carousel-wrapper">
+      <div class="carousel">
+        <div class="item">
+          <img src="https://via.placeholder.com/720x400/226666?text=1" />
+          <div class="item-text">
+            <h2 class="item-title">Title 1</h2>
+            <p class="item-subtitle">Subtitle 1</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/610x576/773344?text=2" />
+          <div class="item-text">
+            <h2 class="item-title">Title 2</h2>
+            <p class="item-subtitle">Subtitle 2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/720x500/556622?text=3" />
+          <div class="item-text">
+            <h2 class="item-title">Title 3</h2>
+            <p class="item-subtitle">Subtitle 3</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/320x240/884466?text=4" />
+          <div class="item-text">
+            <h2 class="item-title">Title 4</h2>
+            <p class="item-subtitle">Subtitle 4</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-navigation">
+        <button id="prevBtn">&lt;</button>
+        <button id="nextBtn">&gt;</button>
+      </div>
+    </div>
+
+    <!-- FIN DE MÓDULO DESTACADAS -->
+    <a class="mono noticielo" href="articles/noticielo.html"
+      ><img src="banners/noticielo_cover.jpg" alt=""
+    /></a>
+
+    <!-- MÓDULO NOTICIAS ARTE -->
+
+    <div class="arte carousel-wrapper">
+      <div class="carousel">
+        <div class="item">
+          <img src="https://via.placeholder.com/720x400/447733?text=1" />
+          <div class="item-text">
+            <h2 class="item-title">Title 1</h2>
+            <p class="item-subtitle">Subtitle 1</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/610x576/884433?text=2" />
+          <div class="item-text">
+            <h2 class="item-title">Title 2</h2>
+            <p class="item-subtitle">Subtitle 2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/720x500/554477?text=3" />
+          <div class="item-text">
+            <h2 class="item-title">Title 3</h2>
+            <p class="item-subtitle">Subtitle 3</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/320x240/226666?text=4" />
+          <div class="item-text">
+            <h2 class="item-title">Title 4</h2>
+            <p class="item-subtitle">Subtitle 4</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-navigation">
+        <button id="prevBtn">&lt;</button>
+        <button id="nextBtn">&gt;</button>
+      </div>
+    </div>
+
+    <!-- ACÁ TERMINAN LAS NOTICIAS DE ARTE -->
+
+    <a class="mono noticielo" href="#"
+      ><img src="banners/mapeo_cover.jpg" alt=""
+    /></a>
+  </body>
+</html>
