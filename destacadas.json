@@ -1,26 +1,26 @@
-{
-    "news01": {
+[
+    {
         "title": "Cómo fabricar tu medicina natural en sencillos pasos",
         "subtitle": "Un DIY de tinturas madre.",
-        "coverPic": "noticia01_cover",
-        "link": "noticia01.html"
+        "cover": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.jpg",
+        "link": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.html"
     },
-    "news02": {
+    {
         "title": "El primer centro de salud holística",
         "subtitle": "Un lugar en India para promover el bienestar integral de todos los seres.",
-        "coverPic": "noticia02_cover",
-        "link": "noticia02.html"
+        "cover": "El-primer-centro-de-salud-holística.jpg",
+        "link": "El-primer-centro-de-salud-holística.html"
     },
-    "news03": {
+    {
         "title": "La tecnología y el arte inmersivo",
         "subtitle": "Sumergite en las obras perceptuales de Michael Murphy.",
-        "coverPic": "noticia03_cover",
-        "link": "noticia03.html"
+        "cover": "La-tecnología-y-el-arte-inmersivo.jpg",
+        "link": "La-tecnología-y-el-arte-inmersivo.html"
     },
-    "news04": {
+    {
         "title": "Agricultura biodinámica",
         "subtitle": "Un método diferente de cultivar.",
-        "coverPic": "noticia04_cover",
-        "link": "noticia04.html"
+        "cover": "Agricultura-biodinámica.jpg",
+        "link": "Agricultura-biodinámica.html"
     }
-}
+]

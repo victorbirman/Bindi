@@ -1,26 +1,98 @@
-{
-    "news01": {
+[
+    {
         "title": "Cómo fabricar tu medicina natural en sencillos pasos",
         "subtitle": "Un DIY de tinturas madre.",
-        "coverPic": "noticia01_cover",
-        "link": "noticia01.html"
+        "cover": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.jpg",
+        "link": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.html"
     },
-    "news02": {
+    {
         "title": "El primer centro de salud holística",
         "subtitle": "Un lugar en India para promover el bienestar integral de todos los seres.",
-        "coverPic": "noticia02_cover",
-        "link": "noticia02.html"
+        "cover": "El-primer-centro-de-salud-holística.jpg",
+        "link": "El-primer-centro-de-salud-holística.html"
     },
-    "news03": {
+    {
         "title": "La tecnología y el arte inmersivo",
         "subtitle": "Sumergite en las obras perceptuales de Michael Murphy.",
-        "coverPic": "noticia03_cover",
-        "link": "noticia03.html"
+        "cover": "La-tecnología-y-el-arte-inmersivo.jpg",
+        "link": "La-tecnología-y-el-arte-inmersivo.html"
     },
-    "news04": {
+    {
         "title": "Agricultura biodinámica",
         "subtitle": "Un método diferente de cultivar.",
-        "coverPic": "noticia04_cover",
-        "link": "noticia04.html"
+        "cover": "Agricultura-biodinámica.jpg",
+        "link": "Agricultura-biodinámica.html"
+    },
+    {
+        "title": "Construcción de edificios para ciudades sostenibles",
+        "subtitle": "Biomateriales: creando con la naturaleza.",
+        "cover": "Construcción-de-edificios-para-ciudades-sostenibles.jpg",
+        "link": "Construcción-de-edificios-para-ciudades-sostenibles.html"
+    },
+    {
+        "title": "El joven que imprime su arte en la naturaleza",
+        "subtitle": "David Popa y sus obras de land art sobre hielo.",
+        "cover": "El-joven-que-imprime-su-arte-en-la-naturaleza.jpg",
+        "link": "El-joven-que-imprime-su-arte-en-la-naturaleza.html"
+    },
+    {
+        "title": "Naturaleza para coleccionar hecha de papel",
+        "subtitle": "Conocé el delicado arte de Moth & Myth.",
+        "cover": "Naturaleza-para-coleccionar-hecha-de-papel.jpg",
+        "link": "Naturaleza-para-coleccionar-hecha-de-papel.html"
+    },
+    {
+        "title": "Revelado de fotografías en plantas",
+        "subtitle": "Una técnica sencilla para imprimir imagenes en la naturaleza.",
+        "cover": "Revelado-de-fotografías-en-plantas.jpg",
+        "link": "Revelado-de-fotografías-en-plantas.html"
+    },
+    {
+        "title": "Resonancia Schumann, parte 1",
+        "subtitle": "Por Pablo Isso.",
+        "cover": "Resonancia-Schumann,-parte-1.jpg",
+        "link": "Resonancia-Schumann,-parte-1.html"
+    },
+    {
+        "title": "Luz y oscuridad, dos caras de lo mismo",
+        "subtitle": "¿Cómo podemos transformar el sufrimiento?",
+        "cover": "Luz-y-oscuridad,-dos-caras-de-lo-mismo.jpg",
+        "link": "Luz-y-oscuridad,-dos-caras-de-lo-mismo.html"
+    },
+    {
+        "title": "Qué es el destino",
+        "subtitle": "Preguntas y reflexiones.",
+        "cover": "Qué-es-el-destino.jpg",
+        "link": "Qué-es-el-destino.html"
+    },
+    {
+        "title": "Qué significa fluir",
+        "subtitle": "Y cómo podemos hacerlo en la vida cotidianas.",
+        "cover": "Qué-significa-fluir.jpg",
+        "link": "Qué-significa-fluir.html"
+    },
+    {
+        "title": "El papel de los hongos en el calentamiento global",
+        "subtitle": "El sistema perfecto de la naturaleza.",
+        "cover": "El-papel-de-los-hongos-en-el-calentamiento-global.jpg",
+        "link": "El-papel-de-los-hongos-en-el-calentamiento-global.html"
+    },
+    {
+        "title": "Qué está pasando en el mundo",
+        "subtitle": "La crisis climática nos interpela a todxs.",
+        "cover": "Qué-está-pasando-en-el-mundo.jpg",
+        "link": "Qué-está-pasando-en-el-mundo.html"
+    },
+    {
+        "title": "Descubrí el árbol color arcoíris",
+        "subtitle": "Una especie única en el reino vegetal.",
+        "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
+        "link": "Descubrí-el-árbol-color-arcoíris.html"
+    },
+    {
+        "title": "Los insectos están desapareciendo",
+        "subtitle": "Por qué es un problema para todxs.",
+        "cover": "Los-insectos-están-desapareciendo.jpg",
+        "link": "Los-insectos-están-desapareciendo.html"
     }
-}
+]
