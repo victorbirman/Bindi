@@ -1,13 +1,24 @@
-//#region  FETCH JSON FILES WITH NEWS DATA
-fetch("arte.json")
-  .then(response => response.json())
-  .then(data => {
-    let news = Object.values(data);
-    addNews(news);
-  });
-//#endregion
+const parentContainer = "destacadas";
+const categories = ["lifestyle", "arte", "conciencia", "holistik", "bio"];
+function fillModules(target) {
+  async function fetchDataAndAddNews() {
+    try {
+      const response = await fetch(`${target}.json`);
+      const data = await response.json();
+      const news = Object.values(data);
+      addNews(`.${target}`, news);
+    } catch (error) {
+      console.error("Error fetching JSON:", error);
+    }
+  }
+  fetchDataAndAddNews();
+}
 
-//#region  AUDIO STREAMER CONFIGURATION
+fillModules(parentContainer);
+categories.forEach(category => {
+  console.log(category);
+  fillModules(category);
+});
 const audioPlayer = document.createElement("audio");
 audioPlayer.src = "https://ipanel.instream.audio:7012/stream";
 let audioDiv = document.querySelector(".radio");
@@ -31,41 +42,64 @@ function playAudio() {
 }
 
 //#endregion
+function addNews(parent, json) {
+  const parentElement = document.querySelector(parent);
+  const carousel = parentElement.querySelector(".carousel");
 
-function addNews(news) {
-  const newsHolder = document.querySelector(".news");
-  for (n of news) {
-    let anchor = document.createElement("a");
-    newsHolder.appendChild(anchor);
-    let image = document.createElement("img");
-    anchor.appendChild(image);
-    image.src = `articles/${n.coverPic}.jpg`;
-    anchor.href = `articles/${n.link}`;
-    image.alt = `n.title`;
+  for (const news of json) {
+    const { link: href, cover: src, title, subtitle } = news;
+
+    const item = document.createElement("a");
+    item.classList.add("item");
+    item.href = `articles/${href}`;
+
+    const img = document.createElement("img");
+    img.src = `articles/${src}`;
+
+    const itemText = document.createElement("div");
+    itemText.classList.add("item-text");
+
+    const itemTitle = document.createElement("h2");
+    itemTitle.classList.add("item-title");
+    itemTitle.textContent = title;
+
+    const itemSubtitle = document.createElement("p");
+    itemSubtitle.classList.add("item-subtitle");
+    itemSubtitle.textContent = subtitle;
+
+    itemText.appendChild(itemTitle);
+    itemText.appendChild(itemSubtitle);
+    item.appendChild(img);
+    item.appendChild(itemText);
+    carousel.appendChild(item);
   }
 }
 
-//#region  SCROLL FUNCTIONALITY
-// Get references to the carousel navigation buttons
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
-
-// Get reference to the carousel container
-const carousel = document.querySelector(".carousel");
-
-// Event listener for previous button
-prevBtn.addEventListener("click", () => {
+function scrollCarousel(carousel, direction) {
   carousel.scrollBy({
-    left: -carousel.offsetWidth,
+    left: direction * carousel.offsetWidth,
     behavior: "smooth",
   });
-});
+}
 
-// Event listener for next button
-nextBtn.addEventListener("click", () => {
-  carousel.scrollBy({
-    left: carousel.offsetWidth,
-    behavior: "smooth",
-  });
+document.addEventListener("click", event => {
+  const target = event.target;
+
+  if (
+    target.classList.contains("prevBtn") ||
+    target.classList.contains("nextBtn")
+  ) {
+    // Find the closest "modulo-noticias" parent element
+    const moduloNoticias = target.closest(".modulo-noticias");
+
+    if (moduloNoticias) {
+      const carousel = moduloNoticias.querySelector(".carousel");
+
+      if (carousel) {
+        // Determine the scrolling direction based on the clicked button
+        const direction = target.classList.contains("prevBtn") ? -1 : 1;
+        scrollCarousel(carousel, direction);
+      }
+    }
+  }
 });
-//#endregion

@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Futura PT Medium';
+    src: url('fonts/futura-pt/FuturaPTMedium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 
 @font-face {
     font-family: 'Futura PT Light';
@@ -6,24 +13,19 @@
     font-style: normal;
   }
   
-@font-face {
-    font-family: 'Futura PT Medium';
-    src: url('fonts/futura-pt/FuturaPTMedium.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+
   
 
 body {
     background-color: hsl(34, 13%, 44%);
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
 }
 
 
 nav{
-    z-index: 98;
-    background-color: hsl(34, 13%, 44%);
+    z-index: 989;
+    background-color: hsl(34, 13%, 50%);
     width: 100%;
     position: fixed;
     display: flex;
@@ -59,17 +61,7 @@ nav a {
 nav a:hover {
     font-weight: bold;
 }
-/* .radio {
-    cursor: pointer;
-    z-index: 99;
-    padding: 5px 20px;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    font-size: 12px;
-    border: none;
-    margin-right: 2rem;
-} */
+
 
 .radio {
     cursor: pointer;
@@ -108,9 +100,62 @@ video {
     grid-template-rows: 50% 50%;
      }
   
+     .modulo-noticias > h2 {
+        margin-left: 1ch;
+     }
 
 
 .mono > img{
     width: 100%;
+    margin-top: 30px;
 }
 
+.noticielo {
+    margin-bottom: 30px;
+}
+
+footer {
+
+    z-index: 999;
+    font-family: "Futura PT Medium";
+    height: 50px;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+
+}
+
+
+footer ul {
+    
+    border: 0px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+footer li {
+    list-style: none;
+}
+footer a {
+    color: white;
+
+    border: 0px;
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+footer p {
+    margin-left: 10px;
+}
