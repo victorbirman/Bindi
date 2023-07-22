@@ -1,6 +1,7 @@
+
+
 .modulo-noticias {
     position: relative;
-
   }
   
   .carousel-navigation {
@@ -19,11 +20,11 @@
   }
   
   .carousel-navigation button {
-    background-color: #00000050;
+    background-color: #00000070;
     font-weight: bold;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 7px 14px;
     cursor: pointer;
     border-radius: 50%;
     aspect-ratio: 1;
@@ -48,9 +49,11 @@
     flex: 0 0 50%;
     scroll-snap-align: start;
     width: 100%;
+    background-color: black;
   }
   
   .item img {
+    display: block;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -59,7 +62,7 @@
     padding-bottom: 0px;
     text-shadow: 2px 2px 1px black;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     right: 0;
     padding: 10px;
@@ -120,17 +123,20 @@
 
         @media screen and (max-width: 767px) {
           .aspect-ratio-16-9 .item {
+           aspect-ratio: 1; 
           flex: 0 0 auto;}
             
           .aspect-ratio-1 .item {
+            aspect-ratio: 16/9;
+
             flex: 0 0 auto;
       
             }
 
             .aspect-ratio-9-16 .item{
 
-              flex: 0 0 50%;
-              
+              aspect-ratio: 16/9;
+              flex: 0 0 auto;
             }
       
           .item-subtitle {
@@ -140,7 +146,7 @@
 
 
          img:hover {
-          opacity: 80%;
+          opacity: 60%;
         }
 
  
