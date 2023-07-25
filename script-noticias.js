@@ -14,6 +14,7 @@ fetch("links.json")
       const image = document.createElement("img");
       image.src = "articles/" + item.cover;
       image.alt = "Bindi";
+      image.loading = "lazy";
 
       // Create title element
       const title = document.createElement("h2");

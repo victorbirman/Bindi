@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style-modules.css" />
+    <link rel="stylesheet" href="style-hamburger.css" />
     <script src="script.js" defer></script>
     <title>BINDI</title>
   </head>
@@ -24,6 +26,25 @@
         <li><a href="mailto:world.bindi@gmail.com">Contacto</a></li>
       </ul>
       <button class="radio" onclick="playAudio()">&#9654; EN VIVO</button>
+      <div class="hamburger" onclick="toggleHamburgerMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="hamburger-menu">
+          <ul>
+            <li>
+              <a href="articles/about-us.html">Qui&eacute;nes somos</a>
+            </li>
+            <li>
+              <a href="noticias.html">Noticias</a>
+            </li>
+            <li>
+              <a href="#videos">Videos</a>
+            </li>
+            <li><a href="mailto:world.bindi@gmail.com">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <video
@@ -160,6 +181,46 @@
     <a class="mono noticielo" href="articles/noticielo.html"
       ><img src="banners/noticielo_cover.jpg" alt=""
     /></a>
+
+    <div class="recetas aspect-ratio-9-16 modulo-noticias">
+      <h2
+        style="
+          text-shadow: 1px 1px 2px black;
+          color: white;
+          text-transform: uppercase;
+          font-family: 'Futura PT Medium';
+          font-size: 24px;
+        "
+      >
+        Recetas
+      </h2>
+      <div class="carousel">
+        <div class="item">
+          <a href="articles/Manzana_hot_cake.html"
+            ><img src="articles/Manzana_hot_cake.jpg" alt="Recetas"
+          /></a>
+        </div>
+        <div class="item">
+          <a href="articles/Pasta_de_nuez_y_chocolate.html"
+            ><img src="articles/Pasta_de_nuez_y_chocolate.jpg" alt="Recetas"
+          /></a>
+        </div>
+        <div class="item">
+          <a href="articles/Falafel_express.html"
+            ><img src="articles/Falafel_express.jpg" alt="Recetas"
+          /></a>
+        </div>
+        <div class="item">
+          <a href="articles/Ensalada_otonal.html"
+            ><img src="articles/Ensalada_otonal.jpg" alt="Recetas"
+          /></a>
+        </div>
+      </div>
+      <div class="carousel-navigation">
+        <button class="prevBtn">&lt;</button>
+        <button class="nextBtn">&gt;</button>
+      </div>
+    </div>
 
     <footer>
       <p class="logo sideral">Un producto de Sideral Media S.A.</p>

@@ -1,5 +1,6 @@
 const parentContainer = "destacadas";
 const categories = ["lifestyle", "arte", "conciencia", "holistik", "bio"];
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 function fillModules(target) {
   async function fetchDataAndAddNews() {
     try {
@@ -16,7 +17,6 @@ function fillModules(target) {
 
 fillModules(parentContainer);
 categories.forEach(category => {
-  console.log(category);
   fillModules(category);
 });
 const audioPlayer = document.createElement("audio");
@@ -76,10 +76,15 @@ function addNews(parent, json) {
 }
 
 function scrollCarousel(carousel, direction) {
+  console.log(carousel.scrollLeft);
   carousel.scrollBy({
     left: direction * carousel.offsetWidth,
     behavior: "smooth",
   });
+  // setTimeout(function () {
+  //   switchButtons(carousel);
+  //   console.log(carousel.scrollLeft);
+  // }, 700);
 }
 
 document.addEventListener("click", event => {
@@ -103,3 +108,29 @@ document.addEventListener("click", event => {
     }
   }
 });
+
+function switchButtons(targetCarousel) {
+  const nextBtn = targetCarousel.nextElementSibling.querySelector(".nextBtn");
+  const prevBtn = targetCarousel.nextElementSibling.querySelector(".prevBtn");
+  if (targetCarousel.scrollLeft > 0) {
+    prevBtn.style.visibility = "visible";
+  } else {
+    prevBtn.style.visibility = "hidden";
+  }
+
+  console.log("esto", targetCarousel.offsetWidth - targetCarousel.scrollLeft);
+  if (targetCarousel.scrollLeft - targetCarousel.offsetWidth <= 20) {
+    console.log("cierto");
+    nextBtn.style.visibility = "hidden";
+  } else {
+    nextBtn.style.visibility = "visible";
+  }
+}
+
+function toggleHamburgerMenu() {
+  if (hamburgerMenu.style.display === "block") {
+    hamburgerMenu.style.display = "none";
+  } else {
+    hamburgerMenu.style.display = "block";
+  }
+}

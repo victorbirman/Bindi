@@ -60,3 +60,11 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.videos {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+
+}
