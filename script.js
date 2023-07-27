@@ -7,40 +7,26 @@ const categories = [
   "holistik",
   "bio",
 ];
-const hamburgerMenu = document.querySelector(".hamburger-menu");
 
-function fillModules(target) {
-  async function fetchDataAndAddNews() {
-    try {
-      const response = await fetch(`${target}.json`);
-      const data = await response.json();
-      const news = Object.values(data);
-      addNews(`.${target}`, news);
-    } catch (error) {
-      console.error("Error fetching JSON:", error);
-    }
+async function fetchDataAndAddNews(target, shuffleNews = false) {
+  try {
+    const response = await fetch(`${target}.json`);
+    const data = await response.json();
+    const news = shuffleNews
+      ? shuffle(Object.values(data))
+      : Object.values(data);
+    addNews(`.${target}`, news);
+  } catch (error) {
+    console.error("Error fetching JSON:", error);
   }
-  fetchDataAndAddNews();
 }
 
-function fillModulesRandom(target) {
-  async function fetchDataAndAddNews() {
-    try {
-      const response = await fetch(`${target}.json`);
-      const data = await response.json();
-      const news = shuffle(Object.values(data));
-      addNews(`.${target}`, news);
-    } catch (error) {
-      console.error("Error fetching JSON:", error);
-    }
-  }
-  fetchDataAndAddNews();
-}
-
-fillModules(mainCategory);
+fetchDataAndAddNews(mainCategory);
 categories.forEach(category => {
-  fillModulesRandom(category);
+  fetchDataAndAddNews(category, true);
 });
+
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 
 const audioPlayer = document.createElement("audio");
 audioPlayer.src = "https://ipanel.instream.audio:7012/stream";
