@@ -1,0 +1,46 @@
+{
+    "writers": [
+        {
+            "name": "Pablo Isso",
+            "image": "Pablo-Isso.jpg",
+            "bio": "Docente; Project Manager en Equipo de Ingeniería para la Industria Aeroespacial, AST & Science y SpaceX; Fundador de STS Rosario; publicó el libro “Geometría Universal y las dinámicas de existir” (Patagonia Argentina, 2019).",
+            "notas": "Pablo-Isso.json"
+        },
+        {
+            "name": "Flor La Rosa",
+            "image": "Flor-La-Rosa.jpg",
+            "bio": "Escritora y guionista profesional. Trabajó en las productoras Cuatro Cabezas, Polka, Endemol, Dori Media, Fox, Pakapaka, entre otras. Fue editora de la revista de maternidad y embarazo “MadreHayUnaSola” y escribió y estrenó su ópera prima en teatro “Postparto, nadie te dijo que iba a ser así”. Escribió cuatro libros: 'Primerizas, el lado b de la Maternidad', 'La Luna y el Ascendente de tu Hijo', 'Descubre el Mensaje detrás de tu Historia' y 'El Libro para los Niños y las Niñas con Luna en...'. Es una de las autoras de la serie infantil animada de TV 'Minimalitos'. Se formó en terapias alternativas como Doula, Astrología, Memoria Celular, y Constelaciones Familares.<br>www.florlarosa.com <br> IG: @florencialarosa",
+            "notas": "Flor-La-Rosa.json"
+        },
+        {
+            "name": "Alejandro Junger",
+            "image": "Alejandro-Junger.jpg",
+            "bio": "Cardiólogo, fundador del Programa Clean y autor de best-sellers del New York Times. Se graduó en la Facultad de Medicina en su país de origen, Uruguay. Posteriormente, se mudó a la ciudad de Nueva York para su formación de posgrado en medicina interna en la Universidad de Nueva York y una beca en el Lenox Hill Hospital. El cambio drástico en su estilo de vida y su dieta como resultado de la mudanza a Nueva York se manifestó pronto como síndrome del intestino irritable y depresión. Convertirse en un paciente dentro del mismo sistema que estaba practicando fue de tal impacto que inició su viaje en busca de una solución alternativa a sus problemas de salud. Sus hallazgos son el tema de sus libros más vendidos del New York Times, 'Clean', 'Clean Gut' y 'Clean Eats'. Luego de su formación médica, estudió medicina oriental en la India. Ha sido llamado 'El padre de la desintoxicación' y su programa Clean es seguido por personas de todo el mundo, incluidos dignatarios, celebridades de primer nivel y personalidades de los medios.<br>IG: @dralejandrojungler <br>www.drjunger.com <br>www.cleanprogram.com <br>support@cleanprogram.com ",
+            "notas": "Alejandro-Junger.json"
+        },
+        {
+            "name": "Erik Friend",
+            "image": "Erik-Friend.jpg",
+            "bio": "Erik Friend - Biografía Una profunda pasión por la justicia y la equidad permeó sus años formativos desde el trabajo con la población en situación de calle en Filadelfia hasta las comunidades mineras de las montañas de Appalachia en Virginia. Un viaje a Haití de joven para trabajar con las Hermanas de la Caridad de la Madre Teresa ancló su pasión en un compromiso de por vida. Una temporada en Nicaragua le inspiró en el tema de desarrollo y en el modelo de las cooperativas productivas. Mecánico automotriz innato, después de graduarse de la Union Institute en San Diego en Negocios Internacionales trabajó en el desarrollo de cooperativas de talleres de reparación automotriz en México. Actualmente vive sus aprendizajes a través de su trabajo con un taller de Personas con Discapacidad que reparan sillas de ruedas (ALEM); como presidente de Fundación Comunidad, la fundación comunitaria en Morelos, México; como secretario del consejo de Comunalia, la red de fundaciones comunitarias de México; como facilitador y líder de entrenamientos con el programa 'Despertando al Soñador, Cambiando el Sueño” de la Alianza Pachamama; como Rotario con el CR Cuernavaca Juárez, y como enlace con el Circulo Sagrado de Abuelas y Abuelos de Mesoamérica. <br>facebook.com/erik.friend.5 <br>www.comunidad.org.mx <br>www.alem.org.mx <br>facebook.com/FComunidad.AC/ <br>facebook.com/enchulamelasilla/",
+            "notas": "Erik-Friend.json"
+        },
+        {
+            "name": "Ignasi Salvatella",
+            "image": "Ignasi-Salvatella.jpg",
+            "bio": "Maestro, pedagogo, ludoformador e investigador en educación integral-holística como mirada global y transformadora en el sistema educativo. Fundador del “Institut Obert d’Educació Holística” y el programa “Educació22-des de la creació i la vivencia”. Director del Dynamic Master OnLine en Visión Holística Aplicada a la Educación y los Procesos de Vida y facilitador del programa ATB - Awareness Through the Body (Despertar la Conciencia a través del Cuerpo) <a href=`http://www.educacio22.com`>www.educacio22.com</a>. Realiza cursos para el profesorado, educadores, padres y madres y uno mismo, sesiones de asesoramiento y procesos de cambio. Impulsor de los movimientos Educándonos en el Ahora, Niños y Jóvenes del Tercer Milenio y la Educación Holística – La pedagogía del siglo XXI (UNESCO 2015) y de los Congresos La educación holística es posible. Licenciado en Ciencias de la Educación. Barcelona, 2002. Diplomado en Educación General Básica, Barcelona, 1985.",
+            "notas": "Ignasi-Salvatella.json"
+        },
+        {
+            "name": "Sandra Aisenberg",
+            "image": "Sandra-Aisenberg.jpg",
+            "bio": "Formadora y Facilitadora en Decodificacion de la Memoria Celular. Colaboradora del Institut Obert de Educación Holistica Educació 22 (Barcelona, España). Docente del Dynamic Master en Educacion Holistica (España). Coordinadora de la Formación en Educación Prenatal: Sanar y acompañar desde  el inicio de la vida. Facilita talleres para padres, madres, docentes y terapeutas con la técnica DMC. Acompaña familias desde el inicio de la gestación y durante la crianza. Es coautora de los libros “Tu hijo como espejo”, “Descubra la Memoria Celular”, “Cómo despertar los dones”, “Niños Cristal, Niños Indigo” (todos Ed. Kier) y “Colección Cuentos para los Nuevos Niños” ( Ed. Devas).<br>IG: @sandranuevoscodigos",
+            "notas": "Sandra-Aisenberg.json"
+        },
+        {
+            "name": "Florencia Schmidt",
+            "image": "FLorencia-Schmidt.jpg",
+            "bio": "Arquitecta de la Facultad de Arquitectura y Urbanismo de la Universidad de Belgrano. Interesada por la arquitectura vernácula, la sustentabilidad y el uso de los materiales locales, asistió a un campus de investigación, en Auroville, India, el Auroville Earth Institute UNESCO chair of Earthen Construction, donde aprendió a diseñar y construir con bloques de tierra cruda y diseño y construcción de arcos, bóvedas y domos con un método de optimización de material desarrollado en el campus. Participó como voluntaria en la ong TECHO construyendo casas de emergencia y haciendo encuestas para el área de hábitat y de impacto de la vivienda y en Sumando Energías, organización dedicada a la construcción de colectores solares con material reciclado en Garín, Pilar. Actualmente trabaja por cuenta propia con su socia en reformas, proyectos de interiorismo, jardines y sigue investigando en biomateriales para incorporarlos en sus proyectos de diseño.",
+            "notas": "FLorencia-Schmidt.json"
+        }
+    ]
+}

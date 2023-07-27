@@ -12,7 +12,7 @@ fetch("links.json")
 
       // Create image element
       const image = document.createElement("img");
-      image.src = "articles/" + item.cover;
+      image.src = "contenido/" + item.cover;
       image.alt = "Bindi";
       image.loading = "lazy";
 
@@ -26,7 +26,7 @@ fetch("links.json")
 
       // Create link element
       const link = document.createElement("a");
-      link.href = "articles/" + item.link;
+      link.href = "contenido/" + item.link;
       link.appendChild(card);
 
       // Append elements to the card

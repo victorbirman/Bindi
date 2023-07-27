@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Pablo Isso",
+        "subtitle": "",
+        "cover": "Pablo-Isso.jpg",
+        "link": "columnistas.html?writer=0"
+    },
+    {
+        "title": "Flor La Rosa",
+        "subtitle": "",
+        "cover": "Flor-La-Rosa.jpg",
+        "link": "columnistas.html?writer=1"
+    },
+    {
+        "title": "Alejandro Junger",
+        "subtitle": "",
+        "cover": "Alejandro-Junger.jpg",
+        "link": "columnistas.html?writer=2"
+    },
+    {
+        "title": "Erik Friend",
+        "subtitle": "",
+        "cover": "Erik-Friend.jpg",
+        "link": "columnistas.html?writer=3"
+    }
+]

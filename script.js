@@ -1,5 +1,12 @@
 const parentContainer = "destacadas";
-const categories = ["lifestyle", "arte", "conciencia", "holistik", "bio"];
+const categories = [
+  "columnistas",
+  "lifestyle",
+  "arte",
+  "conciencia",
+  "holistik",
+  "bio",
+];
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 function fillModules(target) {
   async function fetchDataAndAddNews() {
@@ -51,10 +58,10 @@ function addNews(parent, json) {
 
     const item = document.createElement("a");
     item.classList.add("item");
-    item.href = `articles/${href}`;
+    item.href = `contenido/${href}`;
 
     const img = document.createElement("img");
-    img.src = `articles/${src}`;
+    img.src = `contenido/${src}`;
 
     const itemText = document.createElement("div");
     itemText.classList.add("item-text");
