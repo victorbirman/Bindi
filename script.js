@@ -1,4 +1,4 @@
-const parentContainer = "destacadas";
+const mainCategory = "destacadas";
 const categories = [
   "columnistas",
   "lifestyle",
@@ -8,6 +8,7 @@ const categories = [
   "bio",
 ];
 const hamburgerMenu = document.querySelector(".hamburger-menu");
+
 function fillModules(target) {
   async function fetchDataAndAddNews() {
     try {
@@ -22,10 +23,25 @@ function fillModules(target) {
   fetchDataAndAddNews();
 }
 
-fillModules(parentContainer);
+function fillModulesRandom(target) {
+  async function fetchDataAndAddNews() {
+    try {
+      const response = await fetch(`${target}.json`);
+      const data = await response.json();
+      const news = shuffle(Object.values(data));
+      addNews(`.${target}`, news);
+    } catch (error) {
+      console.error("Error fetching JSON:", error);
+    }
+  }
+  fetchDataAndAddNews();
+}
+
+fillModules(mainCategory);
 categories.forEach(category => {
-  fillModules(category);
+  fillModulesRandom(category);
 });
+
 const audioPlayer = document.createElement("audio");
 audioPlayer.src = "https://ipanel.instream.audio:7012/stream";
 let audioDiv = document.querySelector(".radio");
@@ -140,4 +156,15 @@ function toggleHamburgerMenu() {
   } else {
     hamburgerMenu.style.display = "block";
   }
+}
+
+function shuffle(target, length = target.length) {
+  const shuffled = target.slice(0, length);
+
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return [...shuffled, ...target.slice(length)];
 }
