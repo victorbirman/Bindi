@@ -22,5 +22,23 @@
         "subtitle": "",
         "cover": "Erik-Friend.jpg",
         "link": "columnistas.html?writer=3"
+    },
+    {
+        "title": "Sandra Aisenberg",
+        "subtitle": "",
+        "cover": "Sandra-Aisenberg.jpg",
+        "link": "columnistas.html?writer=4"
+    },
+    {
+        "title": "Ignasi Salvatella",
+        "subtitle": "",
+        "cover": "Ignasi-Salvatella.jpg",
+        "link": "columnistas.html?writer=5"
+    },
+    {
+        "title": "FLorencia Schmidt",
+        "subtitle": "",
+        "cover": "FLorencia-Schmidt.jpg",
+        "link": "columnistas.html?writer=6"
     }
 ]

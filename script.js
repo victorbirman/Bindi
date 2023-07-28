@@ -58,6 +58,19 @@ function addNews(parent, json) {
   for (const news of json) {
     const { link: href, cover: src, title, subtitle } = news;
 
+    const carouselNavigation = document.createElement("div");
+    carouselNavigation.classList.add("carousel-navigation");
+
+    const prevBtn = document.createElement("button");
+    prevBtn.classList.add("prevBtn");
+    prevBtn.innerHTML = "&lt;";
+    const nextBtn = document.createElement("button");
+    nextBtn.classList.add("nextBtn");
+    nextBtn.innerHTML = "&gt;";
+
+    carouselNavigation.appendChild(prevBtn);
+    carouselNavigation.appendChild(nextBtn);
+
     const item = document.createElement("a");
     item.classList.add("item");
     item.href = `contenido/${href}`;
@@ -81,6 +94,7 @@ function addNews(parent, json) {
     item.appendChild(img);
     item.appendChild(itemText);
     carousel.appendChild(item);
+    carousel.appendChild(carouselNavigation);
   }
 }
 
