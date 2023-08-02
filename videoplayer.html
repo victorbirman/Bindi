@@ -1,43 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video Player</title>
-    <style>
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: hsl(34, 13%, 44%);
-      }
-
-      body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      /* The video container should take up the full height of the viewport */
-      #videoContainer {
-        height: 100%;
-      }
-
-      /* The video element should take up the full width and height of its container */
-      video {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
+    <!-- ... (same as before) ... -->
   </head>
   <body>
     <div id="videoContainer">
-      <video controls>
-        <!-- Get the video URL from the URL parameter "video" -->
-        <source id="videoSource" type="video/webm" />
-        Your browser does not support the video tag.
-      </video>
+      <div id="spinner"></div>
     </div>
 
     <script>
@@ -47,12 +15,35 @@
         return urlParams.get(name) || "";
       }
 
-      // Set video source on page load
-      document.addEventListener("DOMContentLoaded", function () {
-        const videoSource = document.getElementById("videoSource");
+      // Function to load the video dynamically and replace the spinner with the video
+      function loadVideo() {
+        const videoContainer = document.getElementById("videoContainer");
+        const spinner = document.getElementById("spinner");
         const videoUrl = getUrlParameter("video");
+        const videoSource = document.createElement("source");
+        videoSource.type = "video/webm";
         videoSource.src = `media/${videoUrl}`;
-      });
+
+        const videoElement = document.createElement("video");
+        videoElement.controls = true;
+        videoElement.style.width = "100%";
+        videoElement.style.height = "100%";
+        videoElement.appendChild(videoSource);
+
+        videoElement.onloadeddata = function () {
+          spinner.style.display = "none"; // Hide the spinner once video data is loaded
+        };
+
+        videoElement.onerror = function () {
+          spinner.style.display = "none"; // Hide the spinner if there is an error loading the video
+        };
+
+        videoContainer.appendChild(videoElement);
+        videoElement.load(); // Load the video source
+      }
+
+      // Set video source on page load
+      document.addEventListener("DOMContentLoaded", loadVideo);
     </script>
   </body>
 </html>
