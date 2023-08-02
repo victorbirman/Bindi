@@ -1,11 +1,15 @@
-// Fetch the JSON data
-fetch("links.json")
+const categoriesToExclude = ["columnistas", "recetas"]; // Fetch the JSON data
+
+fetch("articles.json")
   .then(response => response.json())
   .then(data => {
     const newsContainer = document.querySelector(".news-container");
+    const dataFiltered = data.filter(item => {
+      return !categoriesToExclude.includes(item.category);
+    });
 
     // Loop through the JSON data
-    data.forEach(item => {
+    dataFiltered.forEach(item => {
       // Create elements for the card
       const card = document.createElement("div");
       card.classList.add("card");

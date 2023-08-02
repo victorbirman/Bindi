@@ -8,23 +8,120 @@ const categories = [
   "bio",
 ];
 
-async function fetchDataAndAddNews(target, shuffleNews = false) {
+async function fetchDataAndAddNews(category, shuffleNews = false) {
   try {
-    const response = await fetch(`${target}.json`);
+    const response = await fetch("articles.json");
     const data = await response.json();
-    const news = shuffleNews
-      ? shuffle(Object.values(data))
-      : Object.values(data);
-    addNews(`.${target}`, news);
+
+    let news = data.filter(item => item.category === category);
+    console.log("noticias", news);
+    console.log("suffle", shuffle(news));
+    if (shuffleNews) {
+      news = shuffle(news);
+    }
+
+    addNews(`.${category}`, news);
+  } catch (error) {
+    console.error("Error fetching JSON:", error);
+  }
+}
+async function fetchDestacadas(category, shuffleNews = false) {
+  try {
+    const response = await fetch("destacadas.json");
+    const data = await response.json();
+
+    const news = data;
+    if (shuffleNews) {
+      shuffle(news);
+    }
+
+    addNews(`.${category}`, news);
   } catch (error) {
     console.error("Error fetching JSON:", error);
   }
 }
 
-fetchDataAndAddNews(mainCategory);
+fetchDestacadas(mainCategory);
+
+// Fetch and add news for each category
 categories.forEach(category => {
   fetchDataAndAddNews(category, true);
 });
+
+// const mainCategory = "destacadas";
+// const categories = [
+//   "columnistas",
+//   "lifestyle",
+//   "arte",
+//   "conciencia",
+//   "holistik",
+//   "bio",
+// ];
+
+// async function fetchDataAndAddNews(target, shuffleNews = false) {
+//   try {
+//     const response = await fetch(`${target}.json`);
+//     const data = await response.json();
+//     const news = shuffleNews
+//       ? shuffle(Object.values(data))
+//       : Object.values(data);
+//     addNews(`.${target}`, news);
+//   } catch (error) {
+//     console.error("Error fetching JSON:", error);
+//   }
+// }
+
+// fetchDataAndAddNews(mainCategory);
+// categories.forEach(category => {
+//   fetchDataAndAddNews(category, true);
+// });
+
+function addNews(parent, json) {
+  const parentElement = document.querySelector(parent);
+  const carousel = parentElement.querySelector(".carousel");
+
+  for (const news of json) {
+    const { link: href, cover: src, title, subtitle } = news;
+
+    const carouselNavigation = document.createElement("div");
+    carouselNavigation.classList.add("carousel-navigation");
+
+    const prevBtn = document.createElement("button");
+    prevBtn.classList.add("prevBtn");
+    prevBtn.innerHTML = "&lt;";
+    const nextBtn = document.createElement("button");
+    nextBtn.classList.add("nextBtn");
+    nextBtn.innerHTML = "&gt;";
+
+    carouselNavigation.appendChild(prevBtn);
+    carouselNavigation.appendChild(nextBtn);
+
+    const item = document.createElement("a");
+    item.classList.add("item");
+    item.href = `contenido/${href}`;
+
+    const img = document.createElement("img");
+    img.src = `contenido/${src}`;
+
+    const itemText = document.createElement("div");
+    itemText.classList.add("item-text");
+
+    const itemTitle = document.createElement("h2");
+    itemTitle.classList.add("item-title");
+    itemTitle.textContent = title;
+
+    const itemSubtitle = document.createElement("p");
+    itemSubtitle.classList.add("item-subtitle");
+    itemSubtitle.textContent = subtitle;
+
+    itemText.appendChild(itemTitle);
+    itemText.appendChild(itemSubtitle);
+    item.appendChild(img);
+    item.appendChild(itemText);
+    carousel.appendChild(item);
+    carousel.appendChild(carouselNavigation);
+  }
+}
 
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 

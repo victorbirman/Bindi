@@ -3,7 +3,7 @@ const categories = ["noticias", "recetas"];
 categories.forEach(x => fetchVideosJson(x));
 async function fetchVideosJson(category) {
   try {
-    const response = await fetch("videos.json");
+    const response = await fetch("articles.json");
     const data = await response.json();
     const filteredData = data.filter(
       item => item.hasOwnProperty("category") && item.category === category
