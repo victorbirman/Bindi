@@ -91,7 +91,7 @@ document.addEventListener("click", event => {
     target.classList.contains("nextBtn")
   ) {
     // Find the closest "modulo-noticias" parent element
-    const moduloNoticias = target.closest(".modulo-videos");
+    const moduloNoticias = target.closest(".modulo-noticias");
 
     if (moduloNoticias) {
       const carousel = moduloNoticias.querySelector(".carousel");

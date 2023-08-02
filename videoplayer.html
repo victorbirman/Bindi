@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- ... (same as before) ... -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>BINDI</title>
   </head>
   <body>
     <div id="videoContainer">
@@ -21,13 +26,16 @@
         const spinner = document.getElementById("spinner");
         const videoUrl = getUrlParameter("video");
         const videoSource = document.createElement("source");
-        videoSource.type = "video/webm";
+        videoSource.type = "video/mp4";
         videoSource.src = `media/${videoUrl}`;
 
         const videoElement = document.createElement("video");
         videoElement.controls = true;
-        videoElement.style.width = "100%";
-        videoElement.style.height = "100%";
+        videoElement.style.maxWidth = "100vw";
+        videoElement.style.maxHeight = "100vh";
+        videoElement.style.display = "flex";
+        videoElement.style.alignContent = "center";
+        videoElement.style.margin = "0 auto";
         videoElement.appendChild(videoSource);
 
         videoElement.onloadeddata = function () {
