@@ -1,26 +1,23 @@
 [
     {
-        "title": "Cómo fabricar tu medicina natural en sencillos pasos",
-        "subtitle": "Un DIY de tinturas madre.",
-        "cover": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.jpg",
-        "link": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.html"
+        "title": "Descubrí el árbol color arcoíris",
+        "subtitle": "Una especie única en el reino vegetal.",
+        "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
+        "href": "Descubrí-el-árbol-color-arcoíris.html",
+        "category": "bio"
     },
     {
-        "title": "El primer centro de salud holística",
-        "subtitle": "Un lugar en India para promover el bienestar integral de todos los seres.",
-        "cover": "El-primer-centro-de-salud-holística.jpg",
-        "link": "El-primer-centro-de-salud-holística.html"
+        "title": "Un escáner que contribuye a gestionar la contaminación plástica",
+        "subtitle": "Nuevas tecnologías aplicadas al reciclaje. ",
+        "cover": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.jpg",
+        "href": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.html",
+        "category": "conciencia"
     },
     {
-        "title": "La tecnología y el arte inmersivo",
-        "subtitle": "Sumergite en las obras perceptuales de Michael Murphy.",
-        "cover": "La-tecnología-y-el-arte-inmersivo.jpg",
-        "link": "La-tecnología-y-el-arte-inmersivo.html"
-    },
-    {
-        "title": "Agricultura biodinámica",
-        "subtitle": "Un método diferente de cultivar.",
-        "cover": "Agricultura-biodinámica.jpg",
-        "link": "Agricultura-biodinámica.html"
+        "title": "El alojamiento más popular en la historia de Airbnb",
+        "subtitle": "Conocé The Mushrrom Dome",
+        "cover": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.jpg",
+        "href": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.html",
+        "category": "lifestyle"
     }
 ]

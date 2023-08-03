@@ -140,13 +140,6 @@
     "category": "bio"
   },
   {
-    "title": "Descubrí el árbol color arcoíris",
-    "subtitle": "Una especie única en el reino vegetal.",
-    "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
-    "href": "Descubrí-el-árbol-color-arcoíris.html",
-    "category": "bio"
-  },
-  {
     "title": "Los insectos están desapareciendo",
     "subtitle": "Por qué es un problema para todxs.",
     "cover": "Los-insectos-están-desapareciendo.jpg",
@@ -175,13 +168,6 @@
     "category": "conciencia"
   },
   {
-    "title": "Un escáner que contribuye a gestionar la contaminación plástica",
-    "subtitle": "Nuevas tecnologías aplicadas al reciclaje. ",
-    "cover": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.jpg",
-    "href": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.html",
-    "category": "conciencia"
-  },
-  {
     "title": "La educación atravesada por la naturaleza",
     "subtitle": "Una escuela para el interser.",
     "cover": "La-educacin-atravesada-por-la-naturaleza.jpg",
@@ -193,13 +179,6 @@
     "subtitle": "Ahora es posible trabajar como en casa fuera de casa.",
     "cover": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.jpg",
     "href": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.html",
-    "category": "lifestyle"
-  },
-  {
-    "title": "El alojamiento más popular en la historia de Airbnb",
-    "subtitle": "Conocé The Mushrrom Dome",
-    "cover": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.jpg",
-    "href": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.html",
     "category": "lifestyle"
   },
   {
@@ -609,5 +588,19 @@
     "cover": "pablo-llompart.jpg",
     "title": "Pablo Llompart",
     "category": "entrevistas"
+  },
+  {
+    "title": "Descubrí el árbol color arcoíris",
+    "subtitle": "Una especie única en el reino vegetal.",
+    "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
+    "href": "Descubrí-el-árbol-color-arcoíris.html",
+    "category": "bio"
+  },
+  {
+    "title": "Cómo generar tu propio gas",
+    "subtitle": "Gratis, ecológico y sustentable.",
+    "cover": "como-generar-tu-propio-gas.jpg",
+    "link": "como-generar-tu-propio-gas.html",
+    "category": "conciencia"
   }
 ]
