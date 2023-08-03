@@ -1,4 +1,4 @@
-const categories = ["noticias", "recetas"];
+const categories = ["noticias", "recetas", "entrevistas"];
 
 categories.forEach(x => fetchVideosJson(x));
 async function fetchVideosJson(category) {
@@ -32,7 +32,7 @@ function addVideosToCarousel(parent, data) {
   const carousel = parentElement.querySelector(".carousel");
 
   for (const video of data) {
-    const href = `videoplayer.html?video=${video.file}`;
+    const href = `videoplayer.html?video=${video.href}`;
     const { cover: src, title } = video;
 
     const carouselNavigation = document.createElement("div");

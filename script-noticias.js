@@ -1,4 +1,9 @@
-const categoriesToExclude = ["columnistas", "recetas"]; // Fetch the JSON data
+const categoriesToExclude = [
+  "columnistas",
+  "recetas",
+  "noticias",
+  "entrevistas",
+]; // Fetch the JSON data
 
 fetch("articles.json")
   .then(response => response.json())
@@ -30,7 +35,7 @@ fetch("articles.json")
 
       // Create link element
       const link = document.createElement("a");
-      link.href = "contenido/" + item.link;
+      link.href = "contenido/" + item.href;
       link.appendChild(card);
 
       // Append elements to the card

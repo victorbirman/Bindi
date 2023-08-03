@@ -7,25 +7,28 @@ const categories = [
   "holistik",
   "bio",
 ];
+const categoriesVideo = ["recetas", "noticias", "entrevistas"];
 
-async function fetchDataAndAddNews(category, shuffleNews = false) {
+async function fetchDataAndAddNews(
+  category,
+  shuffleNews = false,
+  type = "news"
+) {
   try {
     const response = await fetch("articles.json");
     const data = await response.json();
 
     let news = data.filter(item => item.category === category);
-    console.log("noticias", news);
-    console.log("suffle", shuffle(news));
     if (shuffleNews) {
       news = shuffle(news);
     }
 
-    addNews(`.${category}`, news);
+    addItemToCarousel(`.${category}`, news, type);
   } catch (error) {
     console.error("Error fetching JSON:", error);
   }
 }
-async function fetchDestacadas(category, shuffleNews = false) {
+async function fetchDestacadas(category, shuffleNews = false, type = "news") {
   try {
     const response = await fetch("destacadas.json");
     const data = await response.json();
@@ -35,10 +38,8 @@ async function fetchDestacadas(category, shuffleNews = false) {
       shuffle(news);
     }
 
-    addNews(`.${category}`, news);
-  } catch (error) {
-    console.error("Error fetching JSON:", error);
-  }
+    addNews(`.${category}`, news, type);
+  } catch (error) {}
 }
 
 fetchDestacadas(mainCategory);
@@ -46,6 +47,10 @@ fetchDestacadas(mainCategory);
 // Fetch and add news for each category
 categories.forEach(category => {
   fetchDataAndAddNews(category, true);
+});
+
+categoriesVideo.forEach(category => {
+  fetchDataAndAddNews(category, true, "videos");
 });
 
 // const mainCategory = "destacadas";
@@ -76,12 +81,59 @@ categories.forEach(category => {
 //   fetchDataAndAddNews(category, true);
 // });
 
-function addNews(parent, json) {
+// function addNews(parent, json) {
+//   const parentElement = document.querySelector(parent);
+//   const carousel = parentElement.querySelector(".carousel");
+
+//   for (const news of json) {
+//     const { link: href, cover: src, title, subtitle } = news;
+
+//     const carouselNavigation = document.createElement("div");
+//     carouselNavigation.classList.add("carousel-navigation");
+
+//     const prevBtn = document.createElement("button");
+//     prevBtn.classList.add("prevBtn");
+//     prevBtn.innerHTML = "&lt;";
+//     const nextBtn = document.createElement("button");
+//     nextBtn.classList.add("nextBtn");
+//     nextBtn.innerHTML = "&gt;";
+
+//     carouselNavigation.appendChild(prevBtn);
+//     carouselNavigation.appendChild(nextBtn);
+
+//     const item = document.createElement("a");
+//     item.classList.add("item");
+//     item.href = `contenido/${href}`;
+
+//     const img = document.createElement("img");
+//     img.src = `contenido/${src}`;
+
+//     const itemText = document.createElement("div");
+//     itemText.classList.add("item-text");
+
+//     const itemTitle = document.createElement("h2");
+//     itemTitle.classList.add("item-title");
+//     itemTitle.textContent = title;
+
+//     const itemSubtitle = document.createElement("p");
+//     itemSubtitle.classList.add("item-subtitle");
+//     itemSubtitle.textContent = subtitle;
+
+//     itemText.appendChild(itemTitle);
+//     itemText.appendChild(itemSubtitle);
+//     item.appendChild(img);
+//     item.appendChild(itemText);
+//     carousel.appendChild(item);
+//     carousel.appendChild(carouselNavigation);
+//   }
+// }
+
+function addItemToCarousel(parent, data, type) {
   const parentElement = document.querySelector(parent);
   const carousel = parentElement.querySelector(".carousel");
 
-  for (const news of json) {
-    const { link: href, cover: src, title, subtitle } = news;
+  for (const itemData of data) {
+    const { href, cover: src, title, subtitle } = itemData;
 
     const carouselNavigation = document.createElement("div");
     carouselNavigation.classList.add("carousel-navigation");
@@ -99,6 +151,11 @@ function addNews(parent, json) {
     const item = document.createElement("a");
     item.classList.add("item");
     item.href = `contenido/${href}`;
+    console.log(type, href);
+    if (type == "videos") {
+      item.href = `videoplayer.html?video=${href}`;
+    } else {
+    }
 
     const img = document.createElement("img");
     img.src = `contenido/${src}`;
@@ -109,13 +166,15 @@ function addNews(parent, json) {
     const itemTitle = document.createElement("h2");
     itemTitle.classList.add("item-title");
     itemTitle.textContent = title;
-
-    const itemSubtitle = document.createElement("p");
-    itemSubtitle.classList.add("item-subtitle");
-    itemSubtitle.textContent = subtitle;
-
     itemText.appendChild(itemTitle);
-    itemText.appendChild(itemSubtitle);
+
+    if (type === "news") {
+      const itemSubtitle = document.createElement("p");
+      itemSubtitle.classList.add("item-subtitle");
+      itemSubtitle.textContent = subtitle;
+      itemText.appendChild(itemSubtitle);
+    }
+
     item.appendChild(img);
     item.appendChild(itemText);
     carousel.appendChild(item);
@@ -196,7 +255,6 @@ function addNews(parent, json) {
 }
 
 function scrollCarousel(carousel, direction) {
-  console.log(carousel.scrollLeft);
   carousel.scrollBy({
     left: direction * carousel.offsetWidth,
     behavior: "smooth",

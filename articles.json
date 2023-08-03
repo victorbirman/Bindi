@@ -3,563 +3,611 @@
     "title": "Algunos apuntes sobre las gaseosas",
     "subtitle": "Por Alejandro Junger",
     "cover": "algunos-apuntes-sobre-las-gaseosas.jpg",
-    "link": "algunos-apuntes-sobre-las-gaseosas.html",
+    "href": "algunos-apuntes-sobre-las-gaseosas.html",
     "category": "bienestar"
   },
   {
     "title": "Filosofía para una vida limpia",
     "subtitle": "Por Alejandro Junger",
     "cover": "filosofia-para-una-vida-limpia.jpg",
-    "link": "filosofia-para-una-vida-limpia.html",
+    "href": "filosofia-para-una-vida-limpia.html",
     "category": "bienestar"
   },
   {
     "title": "6 maneras de incrementar la energía naturalmente",
     "subtitle": "Por Alejandro Junger",
     "cover": "6-maneras-de-incrementar-la-energia-naturalmente.jpg",
-    "link": "6-maneras-de-incrementar-la-energia-naturalmente.html",
+    "href": "6-maneras-de-incrementar-la-energia-naturalmente.html",
     "category": "bienestar"
   },
   {
     "title": "Ayuno intermitente: siete razones para practicarlo",
     "subtitle": "Por Alejandro Junger",
     "cover": "ayuno-intermitente-siete-razones-para-practicarlo.jpg",
-    "link": "ayuno-intermitente-siete-razones-para-practicarlo.html",
+    "href": "ayuno-intermitente-siete-razones-para-practicarlo.html",
     "category": "bienestar"
   },
   {
     "title": "¿Cuánto azúcar debemos consumir en un día?",
     "subtitle": "Por Alejandro Junger",
     "cover": "cuanto-azucar-debemos-consumir-en-un-dia.jpg",
-    "link": "cuanto-azucar-debemos-consumir-en-un-dia.html",
+    "href": "cuanto-azucar-debemos-consumir-en-un-dia.html",
     "category": "bienestar"
   },
   {
     "title": "La función esencial del intestino.",
     "subtitle": "Por Alejandro Junger",
     "cover": "la-funcion-esencial-del-intestino.jpg",
-    "link": "la-funcion-esencial-del-intestino.html",
+    "href": "la-funcion-esencial-del-intestino.html",
     "category": "bienestar"
   },
   {
     "title": "Construcción de edificios para ciudades sostenibles",
     "subtitle": "Biomateriales: creando con la naturaleza.",
     "cover": "Construcción-de-edificios-para-ciudades-sostenibles.jpg",
-    "link": "Construcción-de-edificios-para-ciudades-sostenibles.html",
+    "href": "Construcción-de-edificios-para-ciudades-sostenibles.html",
     "category": "arte"
   },
   {
     "title": "El joven que imprime su arte en la naturaleza",
     "subtitle": "David Popa y sus obras de land art sobre hielo.",
     "cover": "El-joven-que-imprime-su-arte-en-la-naturaleza.jpg",
-    "link": "El-joven-que-imprime-su-arte-en-la-naturaleza.html",
+    "href": "El-joven-que-imprime-su-arte-en-la-naturaleza.html",
     "category": "arte"
   },
   {
     "title": "Naturaleza para coleccionar hecha de papel",
     "subtitle": "Conocé el delicado arte de Moth & Myth.",
     "cover": "Naturaleza-para-coleccionar-hecha-de-papel.jpg",
-    "link": "Naturaleza-para-coleccionar-hecha-de-papel.html",
+    "href": "Naturaleza-para-coleccionar-hecha-de-papel.html",
     "category": "arte"
   },
   {
     "title": "Revelado de fotografías en plantas",
     "subtitle": "Una técnica sencilla para imprimir imagenes en la naturaleza.",
     "cover": "Revelado-de-fotografías-en-plantas.jpg",
-    "link": "Revelado-de-fotografías-en-plantas.html",
+    "href": "Revelado-de-fotografías-en-plantas.html",
     "category": "arte"
   },
   {
     "title": "Cómo fabricar tu medicina natural en sencillos pasos",
     "subtitle": "Un DIY de tinturas madre.",
     "cover": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.jpg",
-    "link": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.html",
+    "href": "Cómo-fabricar-tu-medicina-natural-en-sencillos-pasos.html",
     "category": "lifestyle"
   },
   {
     "title": "El primer centro de salud holística",
     "subtitle": "Un lugar en India para promover el bienestar integral de todos los seres.",
     "cover": "El-primer-centro-de-salud-holística.jpg",
-    "link": "El-primer-centro-de-salud-holística.html",
+    "href": "El-primer-centro-de-salud-holística.html",
     "category": "bienestar"
   },
   {
     "title": "La tecnología y el arte inmersivo",
     "subtitle": "Sumergite en las obras perceptuales de Michael Murphy.",
     "cover": "La-tecnología-y-el-arte-inmersivo.jpg",
-    "link": "La-tecnología-y-el-arte-inmersivo.html",
+    "href": "La-tecnología-y-el-arte-inmersivo.html",
     "category": "arte"
   },
   {
     "title": "Agricultura biodinámica",
     "subtitle": "Un método diferente de cultivar.",
     "cover": "Agricultura-biodinámica.jpg",
-    "link": "Agricultura-biodinámica.html",
+    "href": "Agricultura-biodinámica.html",
     "category": "lifestyle"
   },
   {
     "title": "Resonancia Schumann, parte 1",
     "subtitle": "Por Pablo Isso.",
     "cover": "Resonancia-Schumann,-parte-1.jpg",
-    "link": "Resonancia-Schumann,-parte-1.html",
+    "href": "Resonancia-Schumann,-parte-1.html",
     "category": "holistik"
   },
   {
     "title": "Luz y oscuridad, dos caras de lo mismo",
     "subtitle": "¿Cómo podemos transformar el sufrimiento?",
     "cover": "Luz-y-oscuridad,-dos-caras-de-lo-mismo.jpg",
-    "link": "Luz-y-oscuridad,-dos-caras-de-lo-mismo.html",
+    "href": "Luz-y-oscuridad,-dos-caras-de-lo-mismo.html",
     "category": "holistik"
   },
   {
     "title": "Qué es el destino",
     "subtitle": "Preguntas y reflexiones.",
     "cover": "Qué-es-el-destino.jpg",
-    "link": "Qué-es-el-destino.html",
+    "href": "Qué-es-el-destino.html",
     "category": "holistik"
   },
   {
     "title": "Qué significa fluir",
     "subtitle": "Y cómo podemos hacerlo en la vida cotidiana.",
     "cover": "Qué-significa-fluir.jpg",
-    "link": "Qué-significa-fluir.html",
+    "href": "Qué-significa-fluir.html",
     "category": "holistik"
   },
   {
     "title": "El papel de los hongos en el calentamiento global",
     "subtitle": "El sistema perfecto de la naturaleza.",
     "cover": "El-papel-de-los-hongos-en-el-calentamiento-global.jpg",
-    "link": "El-papel-de-los-hongos-en-el-calentamiento-global.html",
+    "href": "El-papel-de-los-hongos-en-el-calentamiento-global.html",
     "category": "bio"
   },
   {
     "title": "Qué está pasando en el mundo",
     "subtitle": "La crisis climática nos interpela a todxs.",
     "cover": "Qué-está-pasando-en-el-mundo.jpg",
-    "link": "Qué-está-pasando-en-el-mundo.html",
+    "href": "Qué-está-pasando-en-el-mundo.html",
     "category": "bio"
   },
   {
     "title": "Descubrí el árbol color arcoíris",
     "subtitle": "Una especie única en el reino vegetal.",
     "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
-    "link": "Descubrí-el-árbol-color-arcoíris.html",
+    "href": "Descubrí-el-árbol-color-arcoíris.html",
     "category": "bio"
   },
   {
     "title": "Los insectos están desapareciendo",
     "subtitle": "Por qué es un problema para todxs.",
     "cover": "Los-insectos-están-desapareciendo.jpg",
-    "link": "Los-insectos-están-desapareciendo.html",
+    "href": "Los-insectos-están-desapareciendo.html",
     "category": "bio"
   },
   {
     "title": "Al universo y más allá",
     "subtitle": "Entrevista a Tobias Weinberg",
     "cover": "Al-universo-y-ms-all.jpg",
-    "link": "Al-universo-y-ms-all.html",
+    "href": "Al-universo-y-ms-all.html",
     "category": "conciencia"
   },
   {
     "title": "Cajas de cartón reutilizables",
     "subtitle": "Re-Zip: un nuevo concepto para cuidar el medioambiente",
     "cover": "Cajas-de-cartn-reutilizables.jpg",
-    "link": "Cajas-de-cartn-reutilizables.html",
+    "href": "Cajas-de-cartn-reutilizables.html",
     "category": "conciencia"
   },
   {
     "title": "La granja solar más grande del mundo",
     "subtitle": "Nuevo diseño urbano sustentable.",
     "cover": "La-granja-solar-ms-grande-del-mundo.jpg",
-    "link": "La-granja-solar-ms-grande-del-mundo.html",
+    "href": "La-granja-solar-ms-grande-del-mundo.html",
     "category": "conciencia"
   },
   {
     "title": "Un escáner que contribuye a gestionar la contaminación plástica",
     "subtitle": "Nuevas tecnologías aplicadas al reciclaje. ",
     "cover": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.jpg",
-    "link": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.html",
+    "href": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.html",
     "category": "conciencia"
   },
   {
     "title": "La educación atravesada por la naturaleza",
     "subtitle": "Una escuela para el interser.",
     "cover": "La-educacin-atravesada-por-la-naturaleza.jpg",
-    "link": "La-educacin-atravesada-por-la-naturaleza.html",
+    "href": "La-educacin-atravesada-por-la-naturaleza.html",
     "category": "lifestyle"
   },
   {
     "title": "Descubrí las micro oficinas en parques y lugares públicos",
     "subtitle": "Ahora es posible trabajar como en casa fuera de casa.",
     "cover": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.jpg",
-    "link": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.html",
+    "href": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.html",
     "category": "lifestyle"
   },
   {
     "title": "El alojamiento más popular en la historia de Airbnb",
     "subtitle": "Conocé The Mushrrom Dome",
     "cover": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.jpg",
-    "link": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.html",
+    "href": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.html",
     "category": "lifestyle"
   },
   {
     "title": "¿Querés mantener tu casa calentita en invierno?",
     "subtitle": "Aplicá los principios del Feng Shui para la calidez de tu hogar.",
     "cover": "Quers-mantener-tu-casa-calentita-en-invierno.jpg",
-    "link": "Quers-mantener-tu-casa-calentita-en-invierno.html",
+    "href": "Quers-mantener-tu-casa-calentita-en-invierno.html",
     "category": "lifestyle"
   },
   {
     "title": "La proporción áurea",
     "subtitle": "Por Pablo Isso",
     "cover": "La-proporcion-aurea.jpg",
-    "link": "La-proporcion-aurea.html",
+    "href": "La-proporcion-aurea.html",
     "category": "holistik"
   },
   {
     "title": "La Merkaba: vehículo sutil",
     "subtitle": "Por Pablo Isso",
     "cover": "la-merkaba-vehiculo-sutil.jpg",
-    "link": "la-merkaba-vehiculo-sutil.html",
+    "href": "la-merkaba-vehiculo-sutil.html",
     "category": "holistik"
   },
   {
     "title": "The new acuario is the old capricornio",
     "subtitle": "Por Flor La Rosa",
     "cover": "the-new-acuario-is-the-old-capricornio.jpg",
-    "link": "the-new-acuario-is-the-old-capricornio.html",
+    "href": "the-new-acuario-is-the-old-capricornio.html",
     "category": "holistik"
   },
   {
     "title": "El eje tauro-escorpio",
     "subtitle": "Por Flor La Rosa",
     "cover": "el-eje-tauro-escorpio.jpg",
-    "link": "el-eje-tauro-escorpio.html",
+    "href": "el-eje-tauro-escorpio.html",
     "category": "holistik"
   },
   {
     "title": "Grupos que nos dan esperanza",
     "subtitle": "Por Erik Friend",
     "cover": "grupos-que-nos-dan-esperanza.jpg",
-    "link": "grupos-que-nos-dan-esperanza.html",
+    "href": "grupos-que-nos-dan-esperanza.html",
     "category": "holistik"
   },
   {
     "title": "Interdependencia (parte 2)",
     "subtitle": "Por Erik Friend",
     "cover": "interdependencia-parte-2.jpg",
-    "link": "interdependencia-parte-2.html",
+    "href": "interdependencia-parte-2.html",
     "category": "holistik"
   },
   {
     "title": "Pablo Isso",
     "subtitle": "",
     "cover": "Pablo-Isso.jpg",
-    "link": "columnistas.html?writer=0",
+    "href": "columnistas.html?writer=0",
     "category": "columnistas"
   },
   {
     "title": "Flor La Rosa",
     "subtitle": "",
     "cover": "Flor-La-Rosa.jpg",
-    "link": "columnistas.html?writer=1",
+    "href": "columnistas.html?writer=1",
     "category": "columnistas"
   },
   {
     "title": "Alejandro Junger",
     "subtitle": "",
     "cover": "Alejandro-Junger.jpg",
-    "link": "columnistas.html?writer=2",
+    "href": "columnistas.html?writer=2",
     "category": "columnistas"
   },
   {
     "title": "Erik Friend",
     "subtitle": "",
     "cover": "Erik-Friend.jpg",
-    "link": "columnistas.html?writer=3",
+    "href": "columnistas.html?writer=3",
     "category": "columnistas"
   },
   {
     "title": "Sandra Aisenberg",
     "subtitle": "",
     "cover": "Sandra-Aisenberg.jpg",
-    "link": "columnistas.html?writer=4",
+    "href": "columnistas.html?writer=4",
     "category": "columnistas"
   },
   {
     "title": "Ignasi Salvatella",
     "subtitle": "",
     "cover": "Ignasi-Salvatella.jpg",
-    "link": "columnistas.html?writer=5",
+    "href": "columnistas.html?writer=5",
     "category": "columnistas"
   },
   {
     "title": "FLorencia Schmidt",
     "subtitle": "",
     "cover": "FLorencia.jpg",
-    "link": "columnistas.html?writer=6",
+    "href": "columnistas.html?writer=6",
     "category": "columnistas"
   },
   {
     "title": "¿Cómo podemos hacer para estar presentes?",
     "subtitle": "Por Ignasi Salvatella",
     "cover": "como-podemos-hacer-para-estar-presentes.jpg",
-    "link": "como-podemos-hacer-para-estar-presentes.html",
+    "href": "como-podemos-hacer-para-estar-presentes.html",
     "category": "holistik"
   },
   {
     "title": "Despolaricémonos",
     "subtitle": "Por Erik Friend",
     "cover": "despolaricemonos.jpg",
-    "link": "despolaricemonos.html",
+    "href": "despolaricemonos.html",
     "category": "holistik"
   },
   {
     "title": "Interdependencia (parte 1)",
     "subtitle": "Por Erik Friend",
     "cover": "interdependencia-parte-1.jpg",
-    "link": "interdependencia-parte-1.html",
+    "href": "interdependencia-parte-1.html",
     "category": "holistik"
   },
   {
     "title": "El Bambú, en la cultura pop millennial",
     "subtitle": "Por Arq. Florencia Carolina Schmidt.",
     "cover": "el-bambu-en-la-cultura-pop-millennial.jpg",
-    "link": "el-bambu-en-la-cultura-pop-millennial.html",
+    "href": "el-bambu-en-la-cultura-pop-millennial.html",
     "category": "lifestyle"
   },
   {
     "title": "El metabolismo biológico del material",
     "subtitle": "Por Arq. Florencia Carolina Schmidt.",
     "cover": "el-metabolismo-biologico-del-material.jpg",
-    "link": "el-metabolismo-biologico-del-material.html",
+    "href": "el-metabolismo-biologico-del-material.html",
     "category": "lifestyle"
   },
   {
     "title": "La Pachamama, la influencer de todos los tiempos",
     "subtitle": "Por Arq. Florencia Carolina Schmidt.",
     "cover": "la-pachamama-la-influencer-de-todos-los-tiempos.jpg",
-    "link": "la-pachamama-la-influencer-de-todos-los-tiempos.html",
+    "href": "la-pachamama-la-influencer-de-todos-los-tiempos.html",
     "category": "lifestyle"
   },
   {
     "title": "Burlando a las estrellas",
     "subtitle": "Por Flor La Rosa",
     "cover": "burlando-a-las-estrellas.jpg",
-    "link": "burlando-a-las-estrellas.html",
+    "href": "burlando-a-las-estrellas.html",
     "category": "holistik"
   },
   {
     "title": "Carta solar vs Carta Astral: diferencias entre el Sol y el Ascend",
     "subtitle": "Por Flor La Rosa",
     "cover": "carta-solar-vs-carta-astral-diferencias-entre-el-sol-y-el-ascend.jpg",
-    "link": "carta-solar-vs-carta-astral-diferencias-entre-el-sol-y-el-ascend.html",
+    "href": "carta-solar-vs-carta-astral-diferencias-entre-el-sol-y-el-ascend.html",
     "category": "holistik"
   },
   {
     "title": "Ciclos de edad: las llaves a tu evolución",
     "subtitle": "Por Flor La Rosa",
     "cover": "ciclos-de-edad-las-llaves-a-tu-evolucion.jpg",
-    "link": "ciclos-de-edad-las-llaves-a-tu-evolucion.html",
+    "href": "ciclos-de-edad-las-llaves-a-tu-evolucion.html",
     "category": "holistik"
   },
   {
     "title": "Gran reloj",
     "subtitle": "Por Flor La Rosa",
     "cover": "gran-reloj.jpg",
-    "link": "gran-reloj.html",
+    "href": "gran-reloj.html",
     "category": "holistik"
   },
   {
     "title": "La estrella de Belén: los regalos del corazón",
     "subtitle": "Por Flor La Rosa",
     "cover": "la-estrella-de-belen-los-regalos-del-corazon.jpg",
-    "link": "la-estrella-de-belen-los-regalos-del-corazon.html",
+    "href": "la-estrella-de-belen-los-regalos-del-corazon.html",
     "category": "holistik"
   },
   {
     "title": "La gran verdad: luna llena en Sagitario",
     "subtitle": "Por Flor La Rosa",
     "cover": "la-gran-verdad-luna-llena-en-sagitario.jpg",
-    "link": "la-gran-verdad-luna-llena-en-sagitario.html",
+    "href": "la-gran-verdad-luna-llena-en-sagitario.html",
     "category": "holistik"
   },
   {
     "title": "La importancia de entender a capricornio y a saturno",
     "subtitle": "Por Flor La Rosa",
     "cover": "la-importancia-de-entender-a-capricornio-y-a-saturno.jpg",
-    "link": "la-importancia-de-entender-a-capricornio-y-a-saturno.html",
+    "href": "la-importancia-de-entender-a-capricornio-y-a-saturno.html",
     "category": "holistik"
   },
   {
     "title": "La importancia del momento",
     "subtitle": "Por Flor La Rosa",
     "cover": "la-importancia-del-momento.jpg",
-    "link": "la-importancia-del-momento.html",
+    "href": "la-importancia-del-momento.html",
     "category": "holistik"
   },
   {
     "title": "Niveles de conciencia",
     "subtitle": "Por Flor La Rosa",
     "cover": "niveles-de-conciencia.jpg",
-    "link": "niveles-de-conciencia.html",
+    "href": "niveles-de-conciencia.html",
     "category": "holistik"
   },
   {
     "title": "¿Qué mensaje nos da el cielo en base a la hora en que nacimos?",
     "subtitle": "Por Flor La Rosa",
     "cover": "que-mensaje-nos-da-el-cielo-en-base-a-la-hora-en-que-nacimos.jpg",
-    "link": "que-mensaje-nos-da-el-cielo-en-base-a-la-hora-en-que-nacimos.html",
+    "href": "que-mensaje-nos-da-el-cielo-en-base-a-la-hora-en-que-nacimos.html",
     "category": "holistik"
   },
   {
     "title": "¿Vivimos en una simulación?",
     "subtitle": "Por Pablo Isso",
     "cover": "vivimos-en-una-simulacion.jpg",
-    "link": "vivimos-en-una-simulacion.html",
+    "href": "vivimos-en-una-simulacion.html",
     "category": "holistik"
   },
   {
     "title": "Realidad fractal holográfica",
     "subtitle": "Por Pablo Isso",
     "cover": "realidad-fractal-holografica.jpg",
-    "link": "realidad-fractal-holografica.html",
+    "href": "realidad-fractal-holografica.html",
     "category": "holistik"
   },
   {
     "title": "¿Qué es un fractal?",
     "subtitle": "Por Pablo Isso",
     "cover": "que-es-un-fractal.jpg",
-    "link": "que-es-un-fractal.html",
+    "href": "que-es-un-fractal.html",
     "category": "holistik"
   },
   {
     "title": "Las escalas de vida en el Universo",
     "subtitle": "Por Pablo Isso",
     "cover": "las-escalas-de-vida-en-el-universo.jpg",
-    "link": "las-escalas-de-vida-en-el-universo.html",
+    "href": "las-escalas-de-vida-en-el-universo.html",
     "category": "holistik"
   },
   {
     "title": "La dinámica de comunicación con La Fuente",
     "subtitle": "Por Pablo Isso",
     "cover": "la-dinamica-de-comunicacion-con-la-fuente.jpg",
-    "link": "la-dinamica-de-comunicacion-con-la-fuente.html",
+    "href": "la-dinamica-de-comunicacion-con-la-fuente.html",
     "category": "holistik"
   },
   {
     "title": "Geometría sagrada",
     "subtitle": "Por Pablo Isso",
     "cover": "geometria-sagrada.jpg",
-    "link": "geometria-sagrada.html",
+    "href": "geometria-sagrada.html",
     "category": "holistik"
   },
   {
     "title": "¿El universo es probabilístico y determinista?",
     "subtitle": "Por Pablo Isso",
     "cover": "el-universo-es-probabilistico-y-determinista.jpg",
-    "link": "el-universo-es-probabilistico-y-determinista.html",
+    "href": "el-universo-es-probabilistico-y-determinista.html",
     "category": "holistik"
   },
   {
     "title": "El mundo material aparece y desaparece",
     "subtitle": "Por Pablo Isso",
     "cover": "el-mundo-material-aparece-y-desaparece.jpg",
-    "link": "el-mundo-material-aparece-y-desaparece.html",
+    "href": "el-mundo-material-aparece-y-desaparece.html",
     "category": "holistik"
   },
   {
     "title": "El Hipercampo. Funcionamos en red",
     "subtitle": "Por Pablo Isso",
     "cover": "el-hipercampo-funcionamos-en-red.jpg",
-    "link": "el-hipercampo-funcionamos-en-red.html",
+    "href": "el-hipercampo-funcionamos-en-red.html",
     "category": "holistik"
   },
   {
     "title": "El diminuto espacio del corazón",
     "subtitle": "Por Pablo Isso",
     "cover": "el-diminuto-espacio-del-corazon.jpg",
-    "link": "el-diminuto-espacio-del-corazon.html",
+    "href": "el-diminuto-espacio-del-corazon.html",
     "category": "holistik"
   },
   {
     "title": "Influencia de las experiencias intrauterinas en nuestra memoria celular",
     "subtitle": "Por Sandra Aisenberg",
     "cover": "influencia-de-las-experiencias-intrauterinas-en-nuestra-memoria-c.jpg",
-    "link": "influencia-de-las-experiencias-intrauterinas-en-nuestra-memoria-c.html",
+    "href": "influencia-de-las-experiencias-intrauterinas-en-nuestra-memoria-c.html",
     "category": "holistik"
   },
   {
     "title": "¿Qué es la decodificación de la memoria celular?",
     "subtitle": "Por Sandra Aisenberg",
     "cover": "que-es-la-decodificacion-de-la-memoria-celular.jpg",
-    "link": "que-es-la-decodificacion-de-la-memoria-celular.html",
+    "href": "que-es-la-decodificacion-de-la-memoria-celular.html",
     "category": "holistik"
   },
   {
-    "file": "los-hongos-se-convierten-en-cuero-vegano.mp4",
+    "href": "los-hongos-se-convierten-en-cuero-vegano.mp4",
     "cover": "los-hongos-se-convierten-en-cuero-vegano.jpg",
     "title": "Los hongos se convierten en cuero vegano",
     "category": "noticias"
   },
   {
-    "file": "una-tabla-de-surf-que-genera-un-impacto-ambiental.mp4",
+    "href": "una-tabla-de-surf-que-genera-un-impacto-ambiental.mp4",
     "cover": "una-tabla-de-surf-que-genera-un-impacto-ambiental.jpg",
     "title": "Una tabla de surf que genera un impacto ambiental",
     "category": "noticias"
   },
   {
-    "file": "el-artista-que-hace-musica-con-hongos.mp4",
+    "href": "el-artista-que-hace-musica-con-hongos.mp4",
     "cover": "el-artista-que-hace-musica-con-hongos.jpg",
     "title": "El artista que hace música con hongos",
     "category": "noticias"
   },
   {
-    "file": "una-pared-que-abastece-electricidad.mp4",
+    "href": "una-pared-que-abastece-electricidad.mp4",
     "cover": "una-pared-que-abastece-electricidad.jpg",
     "title": "Una pared que abastece electricidad",
     "category": "noticias"
   },
   {
-    "file": "bolsas-hechas-con-piel-de-fruta.mp4",
+    "href": "bolsas-hechas-con-piel-de-fruta.mp4",
     "cover": "bolsas-hechas-con-piel-de-fruta.jpg",
     "title": "Bolsas hechas con piel de fruta",
     "category": "noticias"
   },
   {
-    "file": "tiny-houses-una-nueva-tendencia.mp4",
+    "href": "tiny-houses-una-nueva-tendencia.mp4",
     "cover": "tiny-houses-una-nueva-tendencia.jpg",
     "title": "Tiny Houses: Una nueva tendencia",
     "category": "noticias"
   },
   {
-    "file": "landart-el-arte-inspirado-en-la-naturaleza.mp4",
+    "href": "landart-el-arte-inspirado-en-la-naturaleza.mp4",
     "cover": "landart-el-arte-inspirado-en-la-naturaleza.jpg",
     "title": "Landart: El arte inspirado en la naturaleza",
     "category": "noticias"
   },
   {
-    "file": "Ensalada_otonal.mp4",
+    "href": "Ensalada_otonal.mp4",
     "cover": "Ensalada_otonal.jpg",
     "title": "Ensalada otoñal",
     "category": "recetas"
   },
   {
-    "file": "Falafel_express.mp4",
+    "href": "Falafel_express.mp4",
     "cover": "Falafel_express.jpg",
     "title": "Falafel express",
     "category": "recetas"
   },
   {
-    "file": "Manzana_hot_cake.mp4",
+    "href": "Manzana_hot_cake.mp4",
     "cover": "Manzana_hot_cake.jpg",
     "title": "Manzana hot cake",
     "category": "recetas"
   },
   {
-    "file": "Pasta_de_nuez_y_chocolate.mp4",
+    "href": "Pasta_de_nuez_y_chocolate.mp4",
     "cover": "Pasta_de_nuez_y_chocolate.jpg",
     "title": "Pasta de nuez y chocolate",
     "category": "recetas"
+  },
+  {
+    "href": "carina-greco.mp4",
+    "cover": "carina-greco.jpg",
+    "title": "Carina Greco",
+    "category": "entrevistas"
+  },
+  {
+    "href": "claudia-de-vicenzo.mp4",
+    "cover": "claudia-de-vicenzo.jpg",
+    "title": "Claudia de Vicenzo",
+    "category": "entrevistas"
+  },
+  {
+    "href": "edgardo-musi.mp4",
+    "cover": "edgardo-musi.jpg",
+    "title": "Edgardo Musi",
+    "category": "entrevistas"
+  },
+  {
+    "href": "facundo-pereyra.mp4",
+    "cover": "facundo-pereyra.jpg",
+    "title": "Facundo Pereyra",
+    "category": "entrevistas"
+  },
+  {
+    "href": "julieta-moras.mp4",
+    "cover": "julieta-moras.jpg",
+    "title": "Julieta Moras",
+    "category": "entrevistas"
+  },
+  {
+    "href": "laureano-de-dominguez.mp4",
+    "cover": "laureano-de-dominguez.jpg",
+    "title": "Laureano de Dominguez",
+    "category": "entrevistas"
+  },
+  {
+    "href": "matelda-lisdero.mp4",
+    "cover": "matelda-lisdero.jpg",
+    "title": "Matelda Lisdero",
+    "category": "entrevistas"
+  },
+  {
+    "href": "pablo-llompart.mp4",
+    "cover": "pablo-llompart.jpg",
+    "title": "Pablo Llompart",
+    "category": "entrevistas"
   }
 ]

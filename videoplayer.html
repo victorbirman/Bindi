@@ -26,8 +26,8 @@
         const spinner = document.getElementById("spinner");
         const videoUrl = getUrlParameter("video");
         const videoSource = document.createElement("source");
-        videoSource.type = "video/mp4";
         videoSource.src = `media/${videoUrl}`;
+        videoSource.type = "video/mp4";
 
         const videoElement = document.createElement("video");
         videoElement.controls = true;
@@ -39,7 +39,8 @@
         videoElement.appendChild(videoSource);
 
         videoElement.onloadeddata = function () {
-          spinner.style.display = "none"; // Hide the spinner once video data is loaded
+          spinner.style.display = "none";
+          videoElement.play(); // Hide the spinner once video data is loaded
         };
 
         videoElement.onerror = function () {
