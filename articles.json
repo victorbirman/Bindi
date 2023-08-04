@@ -126,13 +126,6 @@
     "category": "bio"
   },
   {
-    "title": "Qué está pasando en el mundo",
-    "subtitle": "La crisis climática nos interpela a todxs.",
-    "cover": "Qué-está-pasando-en-el-mundo.jpg",
-    "href": "Qué-está-pasando-en-el-mundo.html",
-    "category": "bio"
-  },
-  {
     "title": "Los insectos están desapareciendo",
     "subtitle": "Por qué es un problema para todxs.",
     "cover": "Los-insectos-están-desapareciendo.jpg",
@@ -597,17 +590,10 @@
     "category": "entrevistas"
   },
   {
-    "title": "Descubrí el árbol color arcoíris",
-    "subtitle": "Una especie única en el reino vegetal.",
-    "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
-    "href": "Descubrí-el-árbol-color-arcoíris.html",
-    "category": "bio"
-  },
-  {
     "title": "Cómo generar tu propio gas",
     "subtitle": "Gratis, ecológico y sustentable.",
     "cover": "como-generar-tu-propio-gas.jpg",
-    "link": "como-generar-tu-propio-gas.html",
+    "href": "como-generar-tu-propio-gas.html",
     "category": "conciencia"
   }
 ]
