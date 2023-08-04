@@ -212,7 +212,7 @@ function addNews(parent, json) {
   const carousel = parentElement.querySelector(".carousel");
 
   for (const news of json) {
-    const { link: href, cover: src, title, subtitle } = news;
+    const { cover: src, href, title, subtitle } = news;
 
     const carouselNavigation = document.createElement("div");
     carouselNavigation.classList.add("carousel-navigation");

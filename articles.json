@@ -112,13 +112,6 @@
     "category": "holistik"
   },
   {
-    "title": "Qué es el destino",
-    "subtitle": "Preguntas y reflexiones.",
-    "cover": "Qué-es-el-destino.jpg",
-    "href": "Qué-es-el-destino.html",
-    "category": "holistik"
-  },
-  {
     "title": "Qué significa fluir",
     "subtitle": "Y cómo podemos hacerlo en la vida cotidiana.",
     "cover": "Qué-significa-fluir.jpg",
@@ -130,20 +123,6 @@
     "subtitle": "El sistema perfecto de la naturaleza.",
     "cover": "El-papel-de-los-hongos-en-el-calentamiento-global.jpg",
     "href": "El-papel-de-los-hongos-en-el-calentamiento-global.html",
-    "category": "bio"
-  },
-  {
-    "title": "Qué está pasando en el mundo",
-    "subtitle": "La crisis climática nos interpela a todxs.",
-    "cover": "Qué-está-pasando-en-el-mundo.jpg",
-    "href": "Qué-está-pasando-en-el-mundo.html",
-    "category": "bio"
-  },
-  {
-    "title": "Descubrí el árbol color arcoíris",
-    "subtitle": "Una especie única en el reino vegetal.",
-    "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
-    "href": "Descubrí-el-árbol-color-arcoíris.html",
     "category": "bio"
   },
   {
@@ -193,13 +172,6 @@
     "subtitle": "Ahora es posible trabajar como en casa fuera de casa.",
     "cover": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.jpg",
     "href": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.html",
-    "category": "lifestyle"
-  },
-  {
-    "title": "El alojamiento más popular en la historia de Airbnb",
-    "subtitle": "Conocé The Mushrrom Dome",
-    "cover": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.jpg",
-    "href": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.html",
     "category": "lifestyle"
   },
   {
@@ -495,6 +467,20 @@
     "cover": "que-es-la-decodificacion-de-la-memoria-celular.jpg",
     "href": "que-es-la-decodificacion-de-la-memoria-celular.html",
     "category": "holistik"
+  },
+  {
+    "title": "Ladrillos ecológicos para construir un mundo mejor",
+    "subtitle": "Resistentes, económicos y amigables con el medio ambiente.",
+    "cover": "ladrillos-ecologicos-para-construir-un-mundo-mejor.jpg",
+    "href": "ladrillos-ecologicos-para-construir-un-mundo-mejor.html",
+    "category": "bio"
+  },
+  {
+    "title": "Cómo producir pintura económica y ecológica",
+    "subtitle": "Las novedosas cualidades del aloe vera.",
+    "cover": "como-producir-pintura-economica-y-ecologica.jpg",
+    "href": "como-producir-pintura-economica-y-ecologica.html",
+    "category": "bio"
   },
   {
     "href": "los-hongos-se-convierten-en-cuero-vegano.mp4",
