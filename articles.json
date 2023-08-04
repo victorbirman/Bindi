@@ -126,6 +126,13 @@
     "category": "bio"
   },
   {
+    "title": "Qué está pasando en el mundo",
+    "subtitle": "La crisis climática nos interpela a todxs.",
+    "cover": "Qué-está-pasando-en-el-mundo.jpg",
+    "href": "Qué-está-pasando-en-el-mundo.html",
+    "category": "bio"
+  },
+  {
     "title": "Los insectos están desapareciendo",
     "subtitle": "Por qué es un problema para todxs.",
     "cover": "Los-insectos-están-desapareciendo.jpg",
@@ -151,13 +158,6 @@
     "subtitle": "Nuevo diseño urbano sustentable.",
     "cover": "La-granja-solar-ms-grande-del-mundo.jpg",
     "href": "La-granja-solar-ms-grande-del-mundo.html",
-    "category": "conciencia"
-  },
-  {
-    "title": "Un escáner que contribuye a gestionar la contaminación plástica",
-    "subtitle": "Nuevas tecnologías aplicadas al reciclaje. ",
-    "cover": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.jpg",
-    "href": "Un-escner-que-contribuye-a-gestionar-la-contaminacin-plstica.html",
     "category": "conciencia"
   },
   {
@@ -595,5 +595,19 @@
     "cover": "pablo-llompart.jpg",
     "title": "Pablo Llompart",
     "category": "entrevistas"
+  },
+  {
+    "title": "Descubrí el árbol color arcoíris",
+    "subtitle": "Una especie única en el reino vegetal.",
+    "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
+    "href": "Descubrí-el-árbol-color-arcoíris.html",
+    "category": "bio"
+  },
+  {
+    "title": "Cómo generar tu propio gas",
+    "subtitle": "Gratis, ecológico y sustentable.",
+    "cover": "como-generar-tu-propio-gas.jpg",
+    "link": "como-generar-tu-propio-gas.html",
+    "category": "conciencia"
   }
 ]
