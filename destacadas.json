@@ -1,5 +1,19 @@
 [
     {
+        "title": "El papel de los hongos en el calentamiento global",
+        "subtitle": "El sistema perfecto de la naturaleza.",
+        "cover": "El-papel-de-los-hongos-en-el-calentamiento-global.jpg",
+        "href": "El-papel-de-los-hongos-en-el-calentamiento-global.html",
+        "category": "bio"
+    },
+    {
+        "title": "Cajas de cartón reutilizables",
+        "subtitle": "Re-Zip: un nuevo concepto para cuidar el medioambiente",
+        "cover": "Cajas-de-cartn-reutilizables.jpg",
+        "href": "Cajas-de-cartn-reutilizables.html",
+        "category": "conciencia"
+    },
+    {
         "title": "Qué está pasando en el mundo",
         "subtitle": "La crisis climática nos interpela a todxs.",
         "cover": "Qué-está-pasando-en-el-mundo.jpg",
@@ -12,19 +26,5 @@
         "cover": "Qué-es-el-destino.jpg",
         "href": "Qué-es-el-destino.html",
         "category": "holistik"
-    },
-    {
-        "title": "El alojamiento más popular en la historia de Airbnb",
-        "subtitle": "Conocé The Mushrrom Dome",
-        "cover": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.jpg",
-        "href": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.html",
-        "category": "lifestyle"
-    },
-    {
-        "title": "Descubrí el árbol color arcoíris",
-        "subtitle": "Una especie única en el reino vegetal.",
-        "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
-        "href": "Descubrí-el-árbol-color-arcoíris.html",
-        "category": "bio"
     }
 ]

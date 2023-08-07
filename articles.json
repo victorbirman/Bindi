@@ -119,10 +119,17 @@
     "category": "holistik"
   },
   {
-    "title": "El papel de los hongos en el calentamiento global",
-    "subtitle": "El sistema perfecto de la naturaleza.",
-    "cover": "El-papel-de-los-hongos-en-el-calentamiento-global.jpg",
-    "href": "El-papel-de-los-hongos-en-el-calentamiento-global.html",
+    "title": "El alojamiento más popular en la historia de Airbnb",
+    "subtitle": "Conocé The Mushrrom Dome",
+    "cover": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.jpg",
+    "href": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.html",
+    "category": "lifestyle"
+  },
+  {
+    "title": "Descubrí el árbol color arcoíris",
+    "subtitle": "Una especie única en el reino vegetal.",
+    "cover": "Descubrí-el-árbol-color-arcoíris.jpg",
+    "href": "Descubrí-el-árbol-color-arcoíris.html",
     "category": "bio"
   },
   {
@@ -137,13 +144,6 @@
     "subtitle": "Entrevista a Tobias Weinberg",
     "cover": "Al-universo-y-ms-all.jpg",
     "href": "Al-universo-y-ms-all.html",
-    "category": "conciencia"
-  },
-  {
-    "title": "Cajas de cartón reutilizables",
-    "subtitle": "Re-Zip: un nuevo concepto para cuidar el medioambiente",
-    "cover": "Cajas-de-cartn-reutilizables.jpg",
-    "href": "Cajas-de-cartn-reutilizables.html",
     "category": "conciencia"
   },
   {
@@ -173,6 +173,13 @@
     "cover": "Quers-mantener-tu-casa-calentita-en-invierno.jpg",
     "href": "Quers-mantener-tu-casa-calentita-en-invierno.html",
     "category": "lifestyle"
+  },
+  {
+    "title": " Ropa inteligente que detecta enfermedades",
+    "subtitle": "Conocé el wearable que está salvando vidas. ",
+    "cover": "ropa-inteligente-que-detecta-enfermedades.jpg",
+    "href": "ropa-inteligente-que-detecta-enfermedades.html",
+    "category": "conciencia"
   },
   {
     "title": "La proporción áurea",
