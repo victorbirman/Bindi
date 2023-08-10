@@ -154,3 +154,20 @@
       }
       }
 
+
+    .destacadas .carousel{
+      flex-wrap: wrap ;
+    }
+
+    @media (orientation:portrait) {
+      .destacadas .carousel {
+        flex-wrap: nowrap;
+      }
+    }
+
+    @media (orientation:landscape) {
+      .destacadas .carousel button{
+        display: none;
+      }
+    }
+
