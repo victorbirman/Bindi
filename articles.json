@@ -14,11 +14,39 @@
     "category": "bienestar"
   },
   {
+    "title": "¿Querés mantener tu casa calentita en invierno?",
+    "subtitle": "Aplicá los principios del Feng Shui para la calidez de tu hogar.",
+    "cover": "Quers-mantener-tu-casa-calentita-en-invierno.jpg",
+    "href": "Quers-mantener-tu-casa-calentita-en-invierno.html",
+    "category": "lifestyle"
+  },
+  {
+    "title": "Resonancia Schumann, parte 1",
+    "subtitle": "Por Pablo Isso.",
+    "cover": "Resonancia-Schumann,-parte-1.jpg",
+    "href": "Resonancia-Schumann,-parte-1.html",
+    "category": "holistik"
+  },
+  {
     "title": "6 maneras de incrementar la energía naturalmente",
     "subtitle": "Por Alejandro Junger",
     "cover": "6-maneras-de-incrementar-la-energia-naturalmente.jpg",
     "href": "6-maneras-de-incrementar-la-energia-naturalmente.html",
     "category": "bienestar"
+  },
+  {
+    "title": "Luz y oscuridad, dos caras de lo mismo",
+    "subtitle": "¿Cómo podemos transformar el sufrimiento?",
+    "cover": "Luz-y-oscuridad,-dos-caras-de-lo-mismo.jpg",
+    "href": "Luz-y-oscuridad,-dos-caras-de-lo-mismo.html",
+    "category": "holistik"
+  },
+  {
+    "title": "Textil con desechos cítricos",
+    "subtitle": "El salto de la industria de la moda. ",
+    "cover": "textil-con-desechos-citricos.jpg",
+    "href": "textil-con-desechos-citricos.html",
+    "category": "arte"
   },
   {
     "title": "Ayuno intermitente: siete razones para practicarlo",
