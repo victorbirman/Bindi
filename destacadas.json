@@ -1,5 +1,19 @@
 [
     {
+        "title": "El científico que limpió un humedal",
+        "subtitle": "El trabajo ejemplar de Marino Morikawa.",
+        "cover": "el-cientifico-que-limpio-un-humedal.jpg",
+        "href": "el-cientifico-que-limpio-un-humedal.html",
+        "category": "conciencia"
+    },
+    {
+        "title": "Cómo nos afecta el salto cuántico planetario",
+        "subtitle": "Descubrí los efectos de la transición energética",
+        "cover": "como-nos-afecta-el-salto-cuantico-planetario.jpg",
+        "href": "como-nos-afecta-el-salto-cuantico-planetario.html",
+        "category": "holistik"
+    },
+    {
         "title": "El saludo del desconocido",
         "subtitle": "Por Erik Friend",
         "cover": "el-saludo-del-desconocido.jpg",
@@ -12,19 +26,5 @@
         "cover": "el-futuro-del-lugar-con-mayor-biodiversidad-esta-en-nuestras-mano.jpg",
         "href": "el-futuro-del-lugar-con-mayor-biodiversidad-esta-en-nuestras-mano.html",
         "category": "bio"
-    },
-    {
-        "title": "Disfrutar de las vacaciones",
-        "subtitle": "Cómo frenar la cabeza y las exigencias de pasarla bien.",
-        "cover": "disfrutar-de-las-vacaciones.jpg",
-        "href": "disfrutar-de-las-vacaciones.html",
-        "category": "lifestyle"
-    },
-    {
-        "title": "Herramientas para salir de la negatividad",
-        "subtitle": "¿Cómo hacemos para mirar el vaso medio lleno?",
-        "cover": "herramientas-para-salir-de-la-negatividad.jpg",
-        "href": "herramientas-para-salir-de-la-negatividad.html",
-        "category": "bienestar"
     }
 ]
