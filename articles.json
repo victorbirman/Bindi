@@ -637,5 +637,17 @@
     "cover": "como-generar-tu-propio-gas.jpg",
     "href": "como-generar-tu-propio-gas.html",
     "category": "conciencia"
+  },
+  {
+    "href": "desserto.mp4",
+    "cover": "desserto.jpg",
+    "title": "Desserto",
+    "category": "entrevistasDestacadas"
+  },
+  {
+    "href": "juan-pablo-francolini.mp4",
+    "cover": "juan-pablo-francolini.jpg",
+    "title": "Juan Pablo Francolini",
+    "category": "entrevistasDestacadas"
   }
 ]

@@ -7,7 +7,12 @@ const categories = [
   "holistik",
   "bio",
 ];
-const categoriesVideo = ["recetas", "noticias", "entrevistas"];
+const categoriesVideo = [
+  "recetas",
+  "noticias",
+  "entrevistas",
+  "entrevistasDestacadas",
+];
 
 async function fetchDataAndAddNews(
   category,
@@ -53,81 +58,6 @@ categoriesVideo.forEach(category => {
   fetchDataAndAddNews(category, true, "videos");
 });
 
-// const mainCategory = "destacadas";
-// const categories = [
-//   "columnistas",
-//   "lifestyle",
-//   "arte",
-//   "conciencia",
-//   "holistik",
-//   "bio",
-// ];
-
-// async function fetchDataAndAddNews(target, shuffleNews = false) {
-//   try {
-//     const response = await fetch(`${target}.json`);
-//     const data = await response.json();
-//     const news = shuffleNews
-//       ? shuffle(Object.values(data))
-//       : Object.values(data);
-//     addNews(`.${target}`, news);
-//   } catch (error) {
-//     console.error("Error fetching JSON:", error);
-//   }
-// }
-
-// fetchDataAndAddNews(mainCategory);
-// categories.forEach(category => {
-//   fetchDataAndAddNews(category, true);
-// });
-
-// function addNews(parent, json) {
-//   const parentElement = document.querySelector(parent);
-//   const carousel = parentElement.querySelector(".carousel");
-
-//   for (const news of json) {
-//     const { link: href, cover: src, title, subtitle } = news;
-
-//     const carouselNavigation = document.createElement("div");
-//     carouselNavigation.classList.add("carousel-navigation");
-
-//     const prevBtn = document.createElement("button");
-//     prevBtn.classList.add("prevBtn");
-//     prevBtn.innerHTML = "&lt;";
-//     const nextBtn = document.createElement("button");
-//     nextBtn.classList.add("nextBtn");
-//     nextBtn.innerHTML = "&gt;";
-
-//     carouselNavigation.appendChild(prevBtn);
-//     carouselNavigation.appendChild(nextBtn);
-
-//     const item = document.createElement("a");
-//     item.classList.add("item");
-//     item.href = `contenido/${href}`;
-
-//     const img = document.createElement("img");
-//     img.src = `contenido/${src}`;
-
-//     const itemText = document.createElement("div");
-//     itemText.classList.add("item-text");
-
-//     const itemTitle = document.createElement("h2");
-//     itemTitle.classList.add("item-title");
-//     itemTitle.textContent = title;
-
-//     const itemSubtitle = document.createElement("p");
-//     itemSubtitle.classList.add("item-subtitle");
-//     itemSubtitle.textContent = subtitle;
-
-//     itemText.appendChild(itemTitle);
-//     itemText.appendChild(itemSubtitle);
-//     item.appendChild(img);
-//     item.appendChild(itemText);
-//     carousel.appendChild(item);
-//     carousel.appendChild(carouselNavigation);
-//   }
-// }
-
 function addItemToCarousel(parent, data, type) {
   const parentElement = document.querySelector(parent);
   const carousel = parentElement.querySelector(".carousel");
@@ -151,7 +81,6 @@ function addItemToCarousel(parent, data, type) {
     const item = document.createElement("a");
     item.classList.add("item");
     item.href = `contenido/${href}`;
-    console.log(type, href);
     if (type == "videos") {
       item.href = `videoplayer.html?video=${href}`;
     } else {
@@ -259,10 +188,6 @@ function scrollCarousel(carousel, direction) {
     left: direction * carousel.offsetWidth,
     behavior: "smooth",
   });
-  // setTimeout(function () {
-  //   switchButtons(carousel);
-  //   console.log(carousel.scrollLeft);
-  // }, 700);
 }
 
 document.addEventListener("click", event => {
@@ -286,24 +211,6 @@ document.addEventListener("click", event => {
     }
   }
 });
-
-function switchButtons(targetCarousel) {
-  const nextBtn = targetCarousel.nextElementSibling.querySelector(".nextBtn");
-  const prevBtn = targetCarousel.nextElementSibling.querySelector(".prevBtn");
-  if (targetCarousel.scrollLeft > 0) {
-    prevBtn.style.visibility = "visible";
-  } else {
-    prevBtn.style.visibility = "hidden";
-  }
-
-  console.log("esto", targetCarousel.offsetWidth - targetCarousel.scrollLeft);
-  if (targetCarousel.scrollLeft - targetCarousel.offsetWidth <= 20) {
-    console.log("cierto");
-    nextBtn.style.visibility = "hidden";
-  } else {
-    nextBtn.style.visibility = "visible";
-  }
-}
 
 function toggleHamburgerMenu() {
   if (hamburgerMenu.style.display === "block") {
