@@ -21,11 +21,25 @@
     "category": "bienestar"
   },
   {
+    "title": "El saludo del desconocido",
+    "subtitle": "Por Erik Friend",
+    "cover": "el-saludo-del-desconocido.jpg",
+    "href": "el-saludo-del-desconocido.html",
+    "category": "holistik"
+  },
+  {
     "title": "¿Querés mantener tu casa calentita en invierno?",
     "subtitle": "Aplicá los principios del Feng Shui para la calidez de tu hogar.",
     "cover": "Quers-mantener-tu-casa-calentita-en-invierno.jpg",
     "href": "Quers-mantener-tu-casa-calentita-en-invierno.html",
     "category": "lifestyle"
+  },
+  {
+    "title": "El futuro del lugar con mayor biodiversidad está en nuestras mano",
+    "subtitle": "Un llamado a la acción por la biodiversidad y la sostenibilidad. ",
+    "cover": "el-futuro-del-lugar-con-mayor-biodiversidad-esta-en-nuestras-mano.jpg",
+    "href": "el-futuro-del-lugar-con-mayor-biodiversidad-esta-en-nuestras-mano.html",
+    "category": "bio"
   },
   {
     "title": "Resonancia Schumann, parte 1",
