@@ -1,4 +1,9 @@
-const categories = ["noticias", "recetas", "entrevistas"];
+const categories = [
+  "noticias",
+  "recetas",
+  "entrevistas",
+  "entrevistasDestacadas",
+];
 
 categories.forEach(x => fetchVideosJson(x));
 async function fetchVideosJson(category) {

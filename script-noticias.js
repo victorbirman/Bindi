@@ -3,6 +3,7 @@ const categoriesToExclude = [
   "recetas",
   "noticias",
   "entrevistas",
+  "entrevistasDestacadas",
 ]; // Fetch the JSON data
 
 fetch("articles.json")

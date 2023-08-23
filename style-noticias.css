@@ -7,15 +7,17 @@ body {
     display: grid;
     row-gap: 0px;
     column-gap: 0px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
 .card > img {
     background-color: whitesmoke;
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 13/9;
     display: inline-block;
+    margin: 0;
+    display: block;
 }
 
 a{
@@ -36,12 +38,13 @@ a{
 
 
 .card > h2 {
-        bottom: 1%;
+        bottom: 1.5%;
         position: absolute;
-        margin-left: 1ch;
+        margin-left: 1.5ch;
         text-shadow: 2px 2px 2px rgb(29, 28, 28);
         color: #fff;
         font-family: "Futura PT Medium";
+        font-size: 1.3rem;
       }
 
 
