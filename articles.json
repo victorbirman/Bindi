@@ -196,6 +196,27 @@
     "category": "holistik"
   },
   {
+    "title": " ¿Qué son las empresas B?",
+    "subtitle": " Adentrate en el sistema del futuro.",
+    "cover": "que-son-las-empresas-b.jpg",
+    "href": "que-son-las-empresas-b.html",
+    "category": "ladob"
+  },
+  {
+    "title": "El supermercado que reduce los productos cárnicos ",
+    "subtitle": "Más opciones veganas y menos contaminación. ",
+    "cover": "el-supermercado-que-reduce-los-productos-carnicos.jpg",
+    "href": "el-supermercado-que-reduce-los-productos-carnicos.html",
+    "category": "ladob"
+  },
+  {
+    "title": "Las leyes de la física que fueron descubiertas por Van Gogh",
+    "subtitle": "Un pionero del arte y la ciencia. ",
+    "cover": "las-leyes-de-la-fisica-que-fueron-descubiertas-por-van-gogh.jpg",
+    "href": "las-leyes-de-la-fisica-que-fueron-descubiertas-por-van-gogh.html",
+    "category": "arte"
+  },
+  {
     "title": "El alojamiento más popular en la historia de Airbnb",
     "subtitle": "Conocé The Mushrrom Dome",
     "cover": "El-alojamiento-ms-popular-en-la-historia-de-Airbnb.jpg",
@@ -551,6 +572,20 @@
     "cover": "influencia-de-las-experiencias-intrauterinas-en-nuestra-memoria-c.jpg",
     "href": "influencia-de-las-experiencias-intrauterinas-en-nuestra-memoria-c.html",
     "category": "holistik"
+  },
+  {
+    "title": "Todo lo que tenés que saber sobre la vitamina B12 ",
+    "subtitle": " Un suplemento indispensable. ",
+    "cover": "todo-lo-que-tenes-que-saber-sobre-la-vitamina-b12.jpg",
+    "href": "todo-lo-que-tenes-que-saber-sobre-la-vitamina-b12.html",
+    "category": "bienestar"
+  },
+  {
+    "title": "¿Y si cambiamos la forma en que cultivamos y consumimos?",
+    "subtitle": "Alimentos ricos, saludables y baratos sin dañar el medio ambiente",
+    "cover": "y-si-cambiamos-la-forma-en-que-cultivamos-y-consumimos.jpg",
+    "href": "y-si-cambiamos-la-forma-en-que-cultivamos-y-consumimos.html",
+    "category": "lifestyle"
   },
   {
     "title": "¿Qué es la decodificación de la memoria celular?",

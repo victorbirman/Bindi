@@ -6,6 +6,7 @@ const categories = [
   "conciencia",
   "holistik",
   "bio",
+  "ladob",
 ];
 const categoriesVideo = [
   "recetas",
