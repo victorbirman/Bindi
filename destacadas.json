@@ -1,30 +1,30 @@
 [
     {
-        "title": "Diferentes perspectivas de la Luz",
-        "subtitle": "Por Pablo Isso",
-        "cover": "diferentes-perspectivas-de-la-luz.jpg",
-        "href": "diferentes-perspectivas-de-la-luz.html",
-        "category": "holistik"
+        "title": " Inteligencia artificial y sustentabilidad",
+        "subtitle": "¿Cómo se combinan?",
+        "cover": "inteligencia-artificial-y-sustentabilidad.jpg",
+        "href": "inteligencia-artificial-y-sustentabilidad.html",
+        "category": "conciencia"
     },
     {
-        "title": "Un hongo con actividad antibacteriana ",
-        "subtitle": "Una nueva especie descubierta en Ecuador",
-        "cover": "un-hongo-con-actividad-antibacteriana.jpg",
-        "href": "un-hongo-con-actividad-antibacteriana.html",
-        "category": "bio"
+        "title": "Las leyes de la física que fueron descubiertas por Van Gogh",
+        "subtitle": "Un pionero del arte y la ciencia. ",
+        "cover": "las-leyes-de-la-fisica-que-fueron-descubiertas-por-van-gogh.jpg",
+        "href": "las-leyes-de-la-fisica-que-fueron-descubiertas-por-van-gogh.html",
+        "category": "arte"
     },
     {
-        "title": "Logran reverdecer el desierto",
-        "subtitle": "Una región de China logró restablecer el equilibrio natural. ",
-        "cover": "logran-reverdecer-el-desierto.jpg",
-        "href": "logran-reverdecer-el-desierto.html",
-        "category": "bio"
+        "title": "Todo lo que tenés que saber sobre la vitamina B12 ",
+        "subtitle": " Un suplemento indispensable. ",
+        "cover": "todo-lo-que-tenes-que-saber-sobre-la-vitamina-b12.jpg",
+        "href": "todo-lo-que-tenes-que-saber-sobre-la-vitamina-b12.html",
+        "category": "bienestar"
     },
     {
-        "title": "Alcanzá el máximo de tu potencial mental",
-        "subtitle": "Cómo acceder a estados superiores de conciencia.",
-        "cover": "alcanza-el-maximo-de-tu-potencial-mental.jpg",
-        "href": "alcanza-el-maximo-de-tu-potencial-mental.html",
-        "category": "holistik"
+        "title": "¿Y si cambiamos la forma en que cultivamos y consumimos?",
+        "subtitle": "Alimentos ricos, saludables y baratos sin dañar el medio ambiente",
+        "cover": "y-si-cambiamos-la-forma-en-que-cultivamos-y-consumimos.jpg",
+        "href": "y-si-cambiamos-la-forma-en-que-cultivamos-y-consumimos.html",
+        "category": "lifestyle"
     }
 ]

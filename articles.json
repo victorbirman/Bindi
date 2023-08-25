@@ -14,6 +14,27 @@
     "category": "bienestar"
   },
   {
+    "title": "Diferentes perspectivas de la Luz",
+    "subtitle": "Por Pablo Isso",
+    "cover": "diferentes-perspectivas-de-la-luz.jpg",
+    "href": "diferentes-perspectivas-de-la-luz.html",
+    "category": "holistik"
+  },
+  {
+    "title": "Un hongo con actividad antibacteriana ",
+    "subtitle": "Una nueva especie descubierta en Ecuador",
+    "cover": "un-hongo-con-actividad-antibacteriana.jpg",
+    "href": "un-hongo-con-actividad-antibacteriana.html",
+    "category": "bio"
+  },
+  {
+    "title": "Logran reverdecer el desierto",
+    "subtitle": "Una región de China logró restablecer el equilibrio natural. ",
+    "cover": "logran-reverdecer-el-desierto.jpg",
+    "href": "logran-reverdecer-el-desierto.html",
+    "category": "bio"
+  },
+  {
     "title": "Filosofía para una vida limpia",
     "subtitle": "Por Alejandro Junger",
     "cover": "filosofia-para-una-vida-limpia.jpg",
@@ -25,6 +46,13 @@
     "subtitle": "Por Erik Friend",
     "cover": "el-saludo-del-desconocido.jpg",
     "href": "el-saludo-del-desconocido.html",
+    "category": "holistik"
+  },
+  {
+    "title": "Alcanzá el máximo de tu potencial mental",
+    "subtitle": "Cómo acceder a estados superiores de conciencia.",
+    "cover": "alcanza-el-maximo-de-tu-potencial-mental.jpg",
+    "href": "alcanza-el-maximo-de-tu-potencial-mental.html",
     "category": "holistik"
   },
   {
