@@ -627,6 +627,20 @@
     "category": "noticias"
   },
   {
+    "title": " Los 7 chakras ",
+    "subtitle": " ¿Qué nos activa cada uno de ellos? ",
+    "cover": "los-7-chakras.jpg",
+    "href": "los-7-chakras.html",
+    "category": "holistik"
+  },
+  {
+    "title": "Transformando desechos de fruta en diseños sostenibles",
+    "subtitle": "¿Cómo podemos generar una industria más consciente y ecológica?",
+    "cover": "transformando-desechos-de-fruta-en-disenos-sostenibles.jpg",
+    "href": "transformando-desechos-de-fruta-en-disenos-sostenibles.html",
+    "category": "arte"
+  },
+  {
     "href": "una-pared-que-abastece-electricidad.mp4",
     "cover": "una-pared-que-abastece-electricidad.jpg",
     "title": "Una pared que abastece electricidad",

@@ -1,5 +1,19 @@
 [
     {
+        "title": "La obsesión por la salud puede convertirse en enfermedad",
+        "subtitle": "¿Cómo cuidarnos?",
+        "cover": "la-obsesion-por-la-salud-puede-convertirse-en-enfermedad.jpg",
+        "href": "la-obsesion-por-la-salud-puede-convertirse-en-enfermedad.html",
+        "category": "bienestar"
+    },
+    {
+        "title": "Descubrí cómo funcionan los mantras",
+        "subtitle": "¿Cuál es su efecto en el cerebro?",
+        "cover": "descubri-como-funcionan-los-mantras.jpg",
+        "href": "descubri-como-funcionan-los-mantras.html",
+        "category": "holistik"
+    },
+    {
         "title": " Inteligencia artificial y sustentabilidad",
         "subtitle": "¿Cómo se combinan?",
         "cover": "inteligencia-artificial-y-sustentabilidad.jpg",
@@ -12,19 +26,5 @@
         "cover": "hablemos-sobre-el-impuesto-a-la-pobreza.jpg",
         "href": "hablemos-sobre-el-impuesto-a-la-pobreza.html",
         "category": "ladob"
-    },
-    {
-        "title": "Transformando desechos de fruta en diseños sostenibles",
-        "subtitle": "¿Cómo podemos generar una industria más consciente y ecológica?",
-        "cover": "transformando-desechos-de-fruta-en-disenos-sostenibles.jpg",
-        "href": "transformando-desechos-de-fruta-en-disenos-sostenibles.html",
-        "category": "arte"
-    },
-    {
-        "title": " Los 7 chakras ",
-        "subtitle": " ¿Qué nos activa cada uno de ellos? ",
-        "cover": "los-7-chakras.jpg",
-        "href": "los-7-chakras.html",
-        "category": "holistik"
     }
 ]
