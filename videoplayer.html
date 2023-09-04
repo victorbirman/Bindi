@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>BINDI</title>
+  </head>
+  <body>
+    <div id="videoContainer">
+      <div id="spinner"></div>
+    </div>
+
+    <script>
+      // Helper function to get URL parameter by name
+      function getUrlParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name) || "";
+      }
+
+      // Function to load the video dynamically and replace the spinner with the video
+      function loadVideo() {
+        const videoContainer = document.getElementById("videoContainer");
+        const spinner = document.getElementById("spinner");
+        const videoUrl = getUrlParameter("video");
+        const videoSource = document.createElement("source");
+        videoSource.src = `media/${videoUrl}`;
+        videoSource.type = "video/mp4";
+
+        const videoElement = document.createElement("video");
+        videoElement.controls = true;
+        videoElement.style.maxWidth = "100vw";
+        videoElement.style.maxHeight = "100vh";
+        videoElement.style.display = "flex";
+        videoElement.style.alignContent = "center";
+        videoElement.style.margin = "0 auto";
+        videoElement.appendChild(videoSource);
+
+        videoElement.onloadeddata = function () {
+          spinner.style.display = "none";
+          videoElement.play(); // Hide the spinner once video data is loaded
+        };
+
+        videoElement.onerror = function () {
+          spinner.style.display = "none"; // Hide the spinner if there is an error loading the video
+        };
+
+        videoContainer.appendChild(videoElement);
+        videoElement.load(); // Load the video source
+      }
+
+      // Set video source on page load
+      document.addEventListener("DOMContentLoaded", loadVideo);
+    </script>
+  </body>
+</html>

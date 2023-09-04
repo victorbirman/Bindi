@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "FuturaPTMedium";
+    src: url(/fonts/futura-pt/FuturaPTMedium.otf);
+}
+
+body {
+    background-color: rgb(126, 114, 98) ;
+    margin: 0;
+    font-family: FuturaPTMedium, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+
+.banner {
+    width: 100%;
+}
+
+h1, h2, .ilustracion {
+    width: min(60ch, 90%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h2{
+    font-weight:normal;
+}
+
+
+p, ul {
+    width: min(60ch, 90%);
+
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:1.2;
+    list-style-position: inside;
+
+}
+
+ol {
+    width: min(60ch, 90%);
+
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:1.2;
+    list-style-position: inside;
+}
+
+@media (max-width: 767px) {
+    
+    h1, h2 {
+        font-size: inherit; 
+    }
+
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.videos {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+
+}

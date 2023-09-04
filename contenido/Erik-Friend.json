@@ -1,0 +1,32 @@
+[
+  {
+    "title": "El saludo del desconocido",
+    "subtitle": "Por Erik Friend",
+    "cover": "el-saludo-del-desconocido.jpg",
+    "link": "el-saludo-del-desconocido.html"
+  },
+  {
+    "title": "Grupos que nos dan esperanza",
+    "subtitle": "Por Erik Friend",
+    "cover": "grupos-que-nos-dan-esperanza.jpg",
+    "link": "grupos-que-nos-dan-esperanza.html"
+  },
+  {
+    "title": "Interdependencia (parte 2)",
+    "subtitle": "Por Erik Friend",
+    "cover": "interdependencia-parte-2.jpg",
+    "link": "interdependencia-parte-2.html"
+  },
+  {
+    "title": "Despolaricémonos",
+    "subtitle": "Por Erik Friend",
+    "cover": "despolaricemonos.jpg",
+    "link": "despolaricemonos.html"
+  },
+  {
+    "title": "Interdependencia (parte 1)",
+    "subtitle": "Por Erik Friend",
+    "cover": "interdependencia-parte-1.jpg",
+    "link": "interdependencia-parte-1.html"
+  }
+]

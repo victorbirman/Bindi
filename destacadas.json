@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Descubrí las micro oficinas en parques y lugares públicos",
+        "subtitle": "Ahora es posible trabajar como en casa fuera de casa.",
+        "cover": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.jpg",
+        "href": "Descubr-las-micro-oficinas-en-parques-y-lugares-pblicos.html",
+        "category": "lifestyle"
+    },
+    {
+        "title": "Una farola autosuficiente y ecológica para el alumbrado público",
+        "subtitle": "Una luz que ilumine el mundo y no lo contamine.",
+        "cover": "una-farola-autosuficiente-y-ecologica-para-el-alumbrado-publico.jpg",
+        "href": "una-farola-autosuficiente-y-ecologica-para-el-alumbrado-publico.html",
+        "category": "conciencia"
+    },
+    {
+        "title": "Pieter Pot: Compras sostenibles sin residuos",
+        "subtitle": "La alternativa ecológica a los supermercados tradicionales.",
+        "cover": "pieter-pot-compras-sostenibles-sin-residuos.jpg",
+        "href": "pieter-pot-compras-sostenibles-sin-residuos.html",
+        "category": "lifestyle"
+    },
+    {
+        "title": "Diseñá tus tatuajes con tinta vegana ",
+        "subtitle": "Una alternativa de estética con conciencia. ",
+        "cover": "disena-tus-tatuajes-con-tinta-vegana.jpg",
+        "href": "disena-tus-tatuajes-con-tinta-vegana.html",
+        "category": "arte"
+    }
+]

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writer Details</title>
+    <style>
+      /* Basic styles for the card */
+      .card {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Styles for the image */
+      .card img {
+        max-width: 300px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      /* Styles for the bio text */
+      .card p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      /* Styles for the links with images */
+      .carousel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .carousel a {
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+        display: block;
+        max-width: 300px;
+        text-decoration: none;
+      }
+
+      .carousel img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      .item-text {
+        margin: 10px 0;
+      }
+
+      .item-title {
+        font-size: 18px;
+        margin: 0;
+      }
+
+      .item-subtitle {
+        font-size: 14px;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="writerCard" class="card"></div>
+    <div id="carousel" class="carousel"></div>
+
+    <script>
+      // Function to load the writer's data dynamically
+      function loadWriterData() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const writerIndex = urlParams.get("writer");
+        if (writerIndex === null) {
+          console.error("Invalid writer index in the URL parameter.");
+          return;
+        }
+
+        fetch("writers.json")
+          .then(response => response.json())
+          .then(data => {
+            const writer = data.writers[writerIndex];
+            const writerCard = `
+            <img src="${writer.image}" alt="${writer.name}">
+            <p>${writer.name} - Biografía<br>${writer.bio}</p>
+          `;
+            document.getElementById("writerCard").innerHTML = writerCard;
+
+            const carousel = document.getElementById("carousel");
+
+            // Fetch the data for the notas from the JSON file specified in the main JSON
+            fetch(writer.notas)
+              .then(response => response.json())
+              .then(notasData => {
+                for (const news of notasData) {
+                  const { link: href, cover: src, title, subtitle } = news;
+
+                  const item = document.createElement("a");
+                  item.classList.add("item");
+                  item.href = `contenido/${href}`;
+
+                  const img = document.createElement("img");
+                  img.src = `contenido/${src}`;
+                  img.alt = title;
+
+                  const itemText = document.createElement("div");
+                  itemText.classList.add("item-text");
+
+                  const itemTitle = document.createElement("h2");
+                  itemTitle.classList.add("item-title");
+                  itemTitle.textContent = title;
+
+                  const itemSubtitle = document.createElement("p");
+                  itemSubtitle.classList.add("item-subtitle");
+                  itemSubtitle.textContent = subtitle;
+
+                  itemText.appendChild(itemTitle);
+                  itemText.appendChild(itemSubtitle);
+                  item.appendChild(img);
+                  item.appendChild(itemText);
+                  carousel.appendChild(item);
+                }
+              })
+              .catch(error =>
+                console.error("Error loading notas data:", error)
+              );
+          })
+          .catch(error => console.error("Error loading writer data:", error));
+      }
+
+      // Load the writer's data when the page is ready
+      document.addEventListener("DOMContentLoaded", loadWriterData);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+    <title>Bindi - Columnistas</title>
+    <style>
+      @font-face {
+        font-family: "Futura PT Medium";
+        src: url("../fonts/futura-pt/FuturaPTMedium.otf") format("truetype");
+      }
+      /* Bas\ic styles for the card */
+      body {
+        background-color: hsl(34, 13%, 44%);
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+      }
+
+      .flex-container {
+        display: flex;
+        align-items: flex-start;
+      }
+
+      @media (orientation: portrait) {
+        .flex-container {
+          flex-wrap: wrap;
+          .carousel {
+            grid-template-columns: 1fr;
+          }
+        }
+      }
+
+      .carousel {
+        margin-top: 22px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+      }
+      .card {
+        width: fit-content;
+
+        padding: 20px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Styles for the image */
+      .card img {
+        max-width: 100%;
+        object-fit: cover;
+
+        aspect-ratio: 1;
+        border-radius: 5px;
+      }
+
+      /* Styles for the bio text */
+      .card p {
+        color: #1e1e1e;
+
+        font-family: "Futura PT Medium", sans-serif;
+        font-size: 20px;
+        line-height: 1.6;
+      }
+
+      /* Styles for the links with images */
+
+      .carousel a {
+        position: relative;
+        text-decoration: none;
+      }
+
+      .carousel img {
+        aspect-ratio: 16/9;
+        max-width: 100%;
+        display: block;
+      }
+
+      .item-text {
+        position: absolute;
+        margin: 10px 10px;
+        bottom: 5px;
+        color: white;
+      }
+
+      .item-title {
+        font-size: 24px;
+        margin: 0;
+        text-shadow: 2px 2px 2px rgb(29, 28, 28);
+      }
+
+      .item-subtitle {
+        font-size: 18px;
+        margin: 0;
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <div id="writerCard" class="card"></div>
+      <div id="carousel" class="carousel"></div>
+    </div>
+
+    <script>
+      // Function to load the writer's data dynamically
+      function loadWriterData() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const writerIndex = urlParams.get("writer");
+        if (writerIndex === null) {
+          console.error("Invalid writer index in the URL parameter.");
+          return;
+        }
+
+        fetch("columnistasData.json")
+          .then(response => response.json())
+          .then(data => {
+            const writer = data.writers[writerIndex];
+            const writerCard = `
+            <img src="${writer.image}" alt="${writer.name}">
+            <p>${writer.name} - Biografía<br>${writer.bio}</p>
+          `;
+            document.getElementById("writerCard").innerHTML = writerCard;
+
+            const carousel = document.getElementById("carousel");
+
+            // Fetch the data for the notas from the JSON file specified in the main JSON
+            fetch(writer.notas)
+              .then(response => response.json())
+              .then(notasData => {
+                for (const news of notasData) {
+                  const { link: href, cover: src, title, subtitle } = news;
+
+                  const item = document.createElement("a");
+                  item.classList.add("item");
+                  item.href = `${href}`;
+
+                  const img = document.createElement("img");
+                  img.src = `${src}`;
+                  img.alt = title;
+
+                  const itemText = document.createElement("div");
+                  itemText.classList.add("item-text");
+
+                  const itemTitle = document.createElement("h2");
+                  itemTitle.classList.add("item-title");
+                  itemTitle.textContent = title;
+
+                  const itemSubtitle = document.createElement("p");
+                  itemSubtitle.classList.add("item-subtitle");
+                  itemSubtitle.textContent = subtitle;
+
+                  itemText.appendChild(itemTitle);
+                  itemText.appendChild(itemSubtitle);
+                  item.appendChild(img);
+                  item.appendChild(itemText);
+                  carousel.appendChild(item);
+                }
+              })
+              .catch(error =>
+                console.error("Error loading notas data:", error)
+              );
+          })
+          .catch(error => console.error("Error loading writer data:", error));
+      }
+
+      // Load the writer's data when the page is ready
+      document.addEventListener("DOMContentLoaded", loadWriterData);
+    </script>
+  </body>
+</html>
