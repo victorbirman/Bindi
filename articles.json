@@ -147,11 +147,32 @@
     "category": "arte"
   },
   {
-    "title": "Revelado de fotografías en plantas",
-    "subtitle": "Una técnica sencilla para imprimir imagenes en la naturaleza.",
-    "cover": "Revelado-de-fotografías-en-plantas.jpg",
-    "href": "Revelado-de-fotografías-en-plantas.html",
+    "title": "Pieter Pot: Compras sostenibles sin residuos",
+    "subtitle": "La alternativa ecológica a los supermercados tradicionales.",
+    "cover": "pieter-pot-compras-sostenibles-sin-residuos.jpg",
+    "href": "pieter-pot-compras-sostenibles-sin-residuos.html",
+    "category": "lifestyle"
+  },
+  {
+    "title": "Diseñá tus tatuajes con tinta vegana ",
+    "subtitle": "Una alternativa de estética con conciencia. ",
+    "cover": "disena-tus-tatuajes-con-tinta-vegana.jpg",
+    "href": "disena-tus-tatuajes-con-tinta-vegana.html",
     "category": "arte"
+  },
+  {
+    "title": "Descubrí cómo funcionan los mantras",
+    "subtitle": "¿Cuál es su efecto en el cerebro?",
+    "cover": "descubri-como-funcionan-los-mantras.jpg",
+    "href": "descubri-como-funcionan-los-mantras.html",
+    "category": "holistik"
+  },
+  {
+    "title": "La obsesión por la salud puede convertirse en enfermedad",
+    "subtitle": "¿Cómo cuidarnos?",
+    "cover": "la-obsesion-por-la-salud-puede-convertirse-en-enfermedad.jpg",
+    "href": "la-obsesion-por-la-salud-puede-convertirse-en-enfermedad.html",
+    "category": "bienestar"
   },
   {
     "title": "Cómo fabricar tu medicina natural en sencillos pasos",
@@ -166,6 +187,20 @@
     "cover": "inteligencia-artificial-y-sustentabilidad.jpg",
     "href": "inteligencia-artificial-y-sustentabilidad.html",
     "category": "conciencia"
+  },
+  {
+    "title": "¿Qué significa “vibrar alto”?",
+    "subtitle": " Descubrí el impacto de tu vibración en la vida cotidiana. ",
+    "cover": "que-significa-vibrar-alto.jpg",
+    "href": "que-significa-vibrar-alto.html",
+    "category": "holistik"
+  },
+  {
+    "title": "¿Qué podemos aprender de la colmena?",
+    "subtitle": "Sumergite en el universo de las abejas",
+    "cover": "que-podemos-aprender-de-la-colmena.jpg",
+    "href": "que-podemos-aprender-de-la-colmena.html",
+    "category": "bio"
   },
   {
     "title": "El primer centro de salud holística",

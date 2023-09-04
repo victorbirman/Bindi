@@ -14,17 +14,31 @@
         "category": "conciencia"
     },
     {
-        "title": "Pieter Pot: Compras sostenibles sin residuos",
-        "subtitle": "La alternativa ecológica a los supermercados tradicionales.",
-        "cover": "pieter-pot-compras-sostenibles-sin-residuos.jpg",
-        "href": "pieter-pot-compras-sostenibles-sin-residuos.html",
-        "category": "lifestyle"
+        "title": "¿Dónde se unen el espíritu y el cuerpo? ",
+        "subtitle": "La glándula pineal y cómo activarla ",
+        "cover": "donde-se-unen-el-espiritu-y-el-cuerpo.jpg",
+        "href": "donde-se-unen-el-espiritu-y-el-cuerpo.html",
+        "category": "holistik"
     },
     {
-        "title": "Diseñá tus tatuajes con tinta vegana ",
-        "subtitle": "Una alternativa de estética con conciencia. ",
-        "cover": "disena-tus-tatuajes-con-tinta-vegana.jpg",
-        "href": "disena-tus-tatuajes-con-tinta-vegana.html",
+        "title": "Grounding: una práctica para reconectar con la naturaleza",
+        "subtitle": "Descubrí todos sus beneficios. ",
+        "cover": "grounding-una-practica-para-reconectar-con-la-naturaleza.jpg",
+        "href": "grounding-una-practica-para-reconectar-con-la-naturaleza.html",
+        "category": "bienestar"
+    },
+    {
+        "title": " La importancia del silencio en la vida cotidiana",
+        "subtitle": "Ayudemos a nuestro cerebro.",
+        "cover": "la-importancia-del-silencio-en-la-vida-cotidiana.jpg",
+        "href": "la-importancia-del-silencio-en-la-vida-cotidiana.html",
+        "category": "bienestar"
+    },
+    {
+        "title": "Revelado de fotografías en plantas",
+        "subtitle": "Una técnica sencilla para imprimir imagenes en la naturaleza.",
+        "cover": "Revelado-de-fotografías-en-plantas.jpg",
+        "href": "Revelado-de-fotografías-en-plantas.html",
         "category": "arte"
     }
 ]
